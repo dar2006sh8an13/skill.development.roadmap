@@ -1,0 +1,453 @@
+{
+  "id": "server-side-game-dev",
+  "title": "Server-Side Game Dev",
+  "type": "role",
+  "description": "Handle the backend infrastructure for multiplayer games.",
+  "estimatedTime": "6-12 Months",
+  "overview": "This roadmap covers the essential skills to become a Server-Side Game Dev.",
+  "careerScope": "High demand in the industry.",
+  "companiesHiring": [
+    "Tech Giants",
+    "Startups",
+    "Enterprises"
+  ],
+  "skills": [
+    "Skill 1",
+    "Skill 2",
+    "Skill 3"
+  ],
+  "roadmap": {
+    "beginner": [
+      {
+        "name": "Basics 101",
+        "desc": "Learn the fundamentals.",
+        "status": "required"
+      },
+      {
+        "name": "Core Concepts",
+        "desc": "Deep dive into core topics.",
+        "status": "required"
+      }
+    ],
+    "intermediate": [
+      {
+        "name": "Advanced Topics",
+        "desc": "Moving beyond basics.",
+        "status": "required"
+      },
+      {
+        "name": "Frameworks",
+        "desc": "Industry standard tools.",
+        "status": "required"
+      }
+    ],
+    "advanced": [
+      {
+        "name": "Architecture",
+        "desc": "System design and patterns.",
+        "status": "required"
+      },
+      {
+        "name": "Optimization",
+        "desc": "Performance tuning.",
+        "status": "optional"
+      }
+    ]
+  },
+  "tools": [
+    "VS Code",
+    "Git"
+  ],
+  "projects": [
+    {
+      "id": "proj-generic-beginner-0",
+      "title": "Practice Project 1",
+      "level": "Beginner",
+      "problemStatement": "Learning.",
+      "description": "Apply valid basics.",
+      "techStack": [
+        "Core Skills"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-generic-beginner-1",
+      "title": "Practice Project 2",
+      "level": "Beginner",
+      "problemStatement": "Learning.",
+      "description": "Apply valid basics.",
+      "techStack": [
+        "Core Skills"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-generic-beginner-2",
+      "title": "Practice Project 3",
+      "level": "Beginner",
+      "problemStatement": "Learning.",
+      "description": "Apply valid basics.",
+      "techStack": [
+        "Core Skills"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-generic-beginner-3",
+      "title": "Practice Project 4",
+      "level": "Beginner",
+      "problemStatement": "Learning.",
+      "description": "Apply valid basics.",
+      "techStack": [
+        "Core Skills"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-generic-beginner-4",
+      "title": "Practice Project 5",
+      "level": "Beginner",
+      "problemStatement": "Learning.",
+      "description": "Apply valid basics.",
+      "techStack": [
+        "Core Skills"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-generic-intermediate-0",
+      "title": "Intermediate App 1",
+      "level": "Intermediate",
+      "problemStatement": "Growth.",
+      "description": "Build something useful.",
+      "techStack": [
+        "Frameworks"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-generic-intermediate-1",
+      "title": "Intermediate App 2",
+      "level": "Intermediate",
+      "problemStatement": "Growth.",
+      "description": "Build something useful.",
+      "techStack": [
+        "Frameworks"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-generic-intermediate-2",
+      "title": "Intermediate App 3",
+      "level": "Intermediate",
+      "problemStatement": "Growth.",
+      "description": "Build something useful.",
+      "techStack": [
+        "Frameworks"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-generic-intermediate-3",
+      "title": "Intermediate App 4",
+      "level": "Intermediate",
+      "problemStatement": "Growth.",
+      "description": "Build something useful.",
+      "techStack": [
+        "Frameworks"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-generic-intermediate-4",
+      "title": "Intermediate App 5",
+      "level": "Intermediate",
+      "problemStatement": "Growth.",
+      "description": "Build something useful.",
+      "techStack": [
+        "Frameworks"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-generic-advanced-0",
+      "title": "Complex System 1",
+      "level": "Advanced",
+      "problemStatement": "Expertise.",
+      "description": "Handle scale.",
+      "techStack": [
+        "High Perf"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-generic-advanced-1",
+      "title": "Complex System 2",
+      "level": "Advanced",
+      "problemStatement": "Expertise.",
+      "description": "Handle scale.",
+      "techStack": [
+        "High Perf"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-generic-advanced-2",
+      "title": "Complex System 3",
+      "level": "Advanced",
+      "problemStatement": "Expertise.",
+      "description": "Handle scale.",
+      "techStack": [
+        "High Perf"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-generic-capstone-0",
+      "title": "Capstone Alpha",
+      "level": "Capstone",
+      "problemStatement": "Mastery.",
+      "description": "End-to-end solution.",
+      "techStack": [
+        "Full Stack"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-generic-capstone-1",
+      "title": "Capstone Beta",
+      "level": "Capstone",
+      "problemStatement": "Mastery.",
+      "description": "End-to-end solution.",
+      "techStack": [
+        "Full Stack"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+    "coding_practices": {
+        "title": "Coding Best Practices",
+        "items": [
+            {
+                "name": "Clean Code",
+                "description": "Write readable, maintainable, and self-explanatory code.",
+                "guidelines": [
+                    "Use meaningful variable and function names",
+                    "Keep functions small and focused",
+                    "Avoid deep nesting",
+                    "Follow consistent naming conventions"
+                ]
+            },
+            {
+                "name": "Modular Design",
+                "description": "Break code into reusable and independent modules.",
+                "guidelines": [
+                    "Single Responsibility Principle",
+                    "Loose coupling, high cohesion",
+                    "Reuse common logic",
+                    "Avoid duplication (DRY principle)"
+                ]
+            },
+            {
+                "name": "Error Handling",
+                "description": "Handle errors gracefully and predictably.",
+                "guidelines": [
+                    "Use try-catch where applicable",
+                    "Return meaningful error messages",
+                    "Never expose sensitive data in errors",
+                    "Log errors properly"
+                ]
+            }
+        ]
+    },
+    "version_control_practices": {
+        "title": "Git & Version Control Best Practices",
+        "items": [
+            {
+                "name": "Commit Strategy",
+                "guidelines": [
+                    "Write clear commit messages",
+                    "Commit small logical changes",
+                    "Use conventional commits (feat, fix, chore)",
+                    "Avoid committing generated files"
+                ]
+            },
+            {
+                "name": "Branching Strategy",
+                "guidelines": [
+                    "Use main/master for production",
+                    "Create feature branches",
+                    "Use pull requests for merging",
+                    "Delete merged branches"
+                ]
+            }
+        ]
+    },
+    "api_design_practices": {
+        "title": "API Design Best Practices",
+        "items": [
+            {
+                "name": "RESTful Design",
+                "guidelines": [
+                    "Use proper HTTP methods (GET, POST, PUT, DELETE)",
+                    "Use meaningful endpoint names",
+                    "Return proper HTTP status codes",
+                    "Version APIs properly"
+                ]
+            },
+            {
+                "name": "Security in APIs",
+                "guidelines": [
+                    "Use authentication & authorization",
+                    "Validate input data",
+                    "Implement rate limiting",
+                    "Use HTTPS always"
+                ]
+            }
+        ]
+    },
+    "database_practices": {
+        "title": "Database Best Practices",
+        "items": [
+            {
+                "name": "Data Modeling",
+                "guidelines": [
+                    "Normalize data where required",
+                    "Use indexes wisely",
+                    "Choose correct data types",
+                    "Avoid redundant data"
+                ]
+            },
+            {
+                "name": "Query Optimization",
+                "guidelines": [
+                    "Avoid SELECT *",
+                    "Use indexes for frequent queries",
+                    "Analyze slow queries",
+                    "Limit large result sets"
+                ]
+            }
+        ]
+    },
+    "security_practices": {
+        "title": "Security Best Practices",
+        "items": [
+            {
+                "name": "Application Security",
+                "guidelines": [
+                    "Never hardcode secrets",
+                    "Use environment variables",
+                    "Sanitize user inputs",
+                    "Protect against SQL injection & XSS"
+                ]
+            },
+            {
+                "name": "Authentication & Authorization",
+                "guidelines": [
+                    "Use strong password hashing",
+                    "Implement role-based access control",
+                    "Use token-based authentication",
+                    "Rotate secrets regularly"
+                ]
+            }
+        ]
+    },
+    "performance_practices": {
+        "title": "Performance Optimization Best Practices",
+        "items": [
+            {
+                "name": "Frontend Performance",
+                "guidelines": [
+                    "Minimize JavaScript bundle size",
+                    "Use lazy loading",
+                    "Optimize images",
+                    "Avoid unnecessary re-renders"
+                ]
+            },
+            {
+                "name": "Backend Performance",
+                "guidelines": [
+                    "Use caching (Redis, CDN)",
+                    "Optimize database queries",
+                    "Use async operations",
+                    "Implement load balancing"
+                ]
+            }
+        ]
+    },
+    "testing_practices": {
+        "title": "Testing Best Practices",
+        "items": [
+            {
+                "name": "Automated Testing",
+                "guidelines": [
+                    "Write unit tests",
+                    "Add integration tests",
+                    "Test edge cases",
+                    "Maintain test coverage"
+                ]
+            },
+            {
+                "name": "Manual & QA Testing",
+                "guidelines": [
+                    "Test real user scenarios",
+                    "Perform regression testing",
+                    "Document bugs clearly",
+                    "Verify fixes thoroughly"
+                ]
+            }
+        ]
+    },
+    "devops_practices": {
+        "title": "DevOps & Deployment Best Practices",
+        "items": [
+            {
+                "name": "CI/CD",
+                "guidelines": [
+                    "Automate builds & deployments",
+                    "Run tests in pipeline",
+                    "Use environment-based configs",
+                    "Rollback on failure"
+                ]
+            },
+            {
+                "name": "Monitoring & Logging",
+                "guidelines": [
+                    "Centralize logs",
+                    "Monitor application health",
+                    "Set alerts",
+                    "Track performance metrics"
+                ]
+            }
+        ]
+    },
+    "ai_ml_practices": {
+        "title": "AI / ML Best Practices",
+        "items": [
+            {
+                "name": "Data Handling",
+                "guidelines": [
+                    "Ensure data quality",
+                    "Avoid data leakage",
+                    "Handle bias in data",
+                    "Document datasets"
+                ]
+            },
+            {
+                "name": "Model Management",
+                "guidelines": [
+                    "Track experiments",
+                    "Version models",
+                    "Monitor model drift",
+                    "Retrain periodically"
+                ]
+            }
+        ]
+    },
+    "professional_practices": {
+        "title": "Professional Engineering Practices",
+        "items": [
+            {
+                "name": "Code Review",
+                "guidelines": [
+                    "Review for readability & logic",
+                    "Avoid personal bias",
+                    "Give constructive feedback",
+                    "Learn from reviews"
+                ]
+            },
+            {
+                "name": "Documentation",
+                "guidelines": [
+                    "Write clear README files",
+                    "Document APIs",
+                    "Keep docs updated",
+                    "Use diagrams where helpful"
+                ]
+            }
+        ]
+    }
+}

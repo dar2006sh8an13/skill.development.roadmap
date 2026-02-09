@@ -1,0 +1,548 @@
+[
+    {
+        "id": "full-stack",
+        "title": "Full Stack Developer",
+        "type": "role",
+        "description": "Master both frontend and backend development to build complete web applications.",
+        "icon": "💻"
+    },
+    {
+        "id": "ai-engineer",
+        "title": "AI Engineer",
+        "type": "role",
+        "description": "Design and build intelligent systems using Machine Learning and Deep Learning.",
+        "icon": "🤖"
+    },
+    {
+        "id": "devops",
+        "title": "DevOps Engineer",
+        "type": "role",
+        "description": "Bridge the gap between development and operations.",
+        "icon": "⚙️"
+    },
+    {
+        "id": "devsecops",
+        "title": "DevSecOps Engineer",
+        "type": "role",
+        "description": "Integrate security practices into the DevOps pipeline.",
+        "icon": "🔒"
+    },
+    {
+        "id": "data-analyst",
+        "title": "Data Analyst",
+        "type": "role",
+        "description": "Analyze data to help organizations make better decisions.",
+        "icon": "📊"
+    },
+    {
+        "id": "data-scientist",
+        "title": "Data Scientist",
+        "type": "role",
+        "description": "Extract insights from structured and unstructured data.",
+        "icon": "🧪"
+    },
+    {
+        "id": "data-engineer",
+        "title": "Data Engineer",
+        "type": "role",
+        "description": "Design and build systems for collecting and storing data.",
+        "icon": "🏗️"
+    },
+    {
+        "id": "android",
+        "title": "Android Developer",
+        "type": "role",
+        "description": "Build mobile applications for the Android platform.",
+        "icon": "📱"
+    },
+    {
+        "id": "ml-engineer",
+        "title": "Machine Learning Engineer",
+        "type": "role",
+        "description": "Design and build machine learning models.",
+        "icon": "🧠"
+    },
+    {
+        "id": "postgresql-developer",
+        "title": "PostgreSQL Developer",
+        "type": "role",
+        "description": "Specialize in PostgreSQL database development.",
+        "icon": "🐘"
+    },
+    {
+        "id": "ios",
+        "title": "iOS Developer",
+        "type": "role",
+        "description": "Build mobile applications for the Apple iOS platform.",
+        "icon": "🍎"
+    },
+    {
+        "id": "blockchain",
+        "title": "Blockchain Developer",
+        "type": "role",
+        "description": "Build decentralized applications and smart contracts.",
+        "icon": "🔗"
+    },
+    {
+        "id": "qa-engineer",
+        "title": "QA Engineer",
+        "type": "role",
+        "description": "Ensure software quality through manual and automated testing.",
+        "icon": "✅"
+    },
+    {
+        "id": "software-architect",
+        "title": "Software Architect",
+        "type": "role",
+        "description": "Make high-level design choices and dictate technical standards.",
+        "icon": "🏛️"
+    },
+    {
+        "id": "cyber-security",
+        "title": "Cyber Security Expert",
+        "type": "role",
+        "description": "Protect systems and networks from digital attacks.",
+        "icon": "🛡️"
+    },
+    {
+        "id": "ux-designer",
+        "title": "UX Designer",
+        "type": "role",
+        "description": "Design products that provide meaningful experiences to users.",
+        "icon": "🎨"
+    },
+    {
+        "id": "technical-writer",
+        "title": "Technical Writer",
+        "type": "role",
+        "description": "Create technical documentation and manuals.",
+        "icon": "📝"
+    },
+    {
+        "id": "game-developer",
+        "title": "Game Developer",
+        "type": "role",
+        "description": "Create video games for computers, consoles, and mobile devices.",
+        "icon": "🎮"
+    },
+    {
+        "id": "server-side-game-dev",
+        "title": "Server-Side Game Dev",
+        "type": "role",
+        "description": "Handle the backend infrastructure for multiplayer games.",
+        "icon": "🕹️"
+    },
+    {
+        "id": "mlops",
+        "title": "MLOps Engineer",
+        "type": "role",
+        "description": "Manage the lifecycle of machine learning models in production.",
+        "icon": "🔄"
+    },
+    {
+        "id": "product-manager",
+        "title": "Product Manager",
+        "type": "role",
+        "description": "Guide the success of a product and lead the cross-functional team.",
+        "icon": "📦"
+    },
+    {
+        "id": "engineering-manager",
+        "title": "Engineering Manager",
+        "type": "role",
+        "description": "Manage a team of engineers and oversee technical strategy.",
+        "icon": "👥"
+    },
+    {
+        "id": "devrel",
+        "title": "Developer Relations",
+        "type": "role",
+        "description": "Build relationships with the developer community.",
+        "icon": "📢"
+    },
+    {
+        "id": "bi-analyst",
+        "title": "BI Analyst",
+        "type": "role",
+        "description": "Convert data into actionable business insights.",
+        "icon": "📈"
+    },
+    {
+        "id": "javascript",
+        "title": "JavaScript",
+        "type": "skill",
+        "description": "The programming language of the Web.",
+        "icon": "🟨"
+    },
+    {
+        "id": "react",
+        "title": "React",
+        "type": "skill",
+        "description": "A JavaScript library for building user interfaces.",
+        "icon": "⚛️"
+    },
+    {
+        "id": "python",
+        "title": "Python",
+        "type": "skill",
+        "description": "A versatile language for web, data science, and AI.",
+        "icon": "🐍"
+    },
+    {
+        "id": "nodejs",
+        "title": "Node.js",
+        "type": "skill",
+        "description": "JavaScript runtime built on Chrome's V8 engine.",
+        "icon": "🟩"
+    },
+    {
+        "id": "sql",
+        "title": "SQL",
+        "type": "skill",
+        "description": "Standard language for accessing and manipulating databases.",
+        "icon": "🗄️"
+    },
+    {
+        "id": "git",
+        "title": "Git",
+        "type": "skill",
+        "description": "Distributed version control system.",
+        "icon": "🐙"
+    },
+    {
+        "id": "cs-fundamental",
+        "title": "CS Fundamentals",
+        "type": "skill",
+        "description": "Algorithms, Data Structures, etc.",
+        "icon": "🎓"
+    },
+    {
+        "id": "typescript",
+        "title": "TypeScript",
+        "type": "skill",
+        "description": "Typed JavaScript at Any Scale.",
+        "icon": "🟦"
+    },
+    {
+        "id": "java",
+        "title": "Java",
+        "type": "skill",
+        "description": "Class-based, object-oriented language.",
+        "icon": "☕"
+    },
+    {
+        "id": "cpp",
+        "title": "C++",
+        "type": "skill",
+        "description": "High-performance programming language.",
+        "icon": "➕"
+    },
+    {
+        "id": "rust",
+        "title": "Rust",
+        "type": "skill",
+        "description": "Empowering everyone to build reliable software.",
+        "icon": "🦀"
+    },
+    {
+        "id": "go",
+        "title": "Go",
+        "type": "skill",
+        "description": "Open source programming language by Google.",
+        "icon": "🐹"
+    },
+    {
+        "id": "php",
+        "title": "PHP",
+        "type": "skill",
+        "description": "Popular general-purpose scripting language.",
+        "icon": "🐘"
+    },
+    {
+        "id": "ruby",
+        "title": "Ruby",
+        "type": "skill",
+        "description": "Dynamic, open source programming language.",
+        "icon": "💎"
+    },
+    {
+        "id": "kotlin",
+        "title": "Kotlin",
+        "type": "skill",
+        "description": "Modern programming language for Android.",
+        "icon": "🤖"
+    },
+    {
+        "id": "swift",
+        "title": "Swift",
+        "type": "skill",
+        "description": "Powerful language for iOS development.",
+        "icon": "🦅"
+    },
+    {
+        "id": "bash",
+        "title": "Shell / Bash",
+        "type": "skill",
+        "description": "Command language interpreter.",
+        "icon": "🐚"
+    },
+    {
+        "id": "html",
+        "title": "HTML",
+        "type": "skill",
+        "description": "Standard markup language for Web.",
+        "icon": "🌐"
+    },
+    {
+        "id": "css",
+        "title": "CSS",
+        "type": "skill",
+        "description": "Style sheet language for Web.",
+        "icon": "🎨"
+    },
+    {
+        "id": "vue",
+        "title": "Vue.js",
+        "type": "skill",
+        "description": "Progressive JavaScript Framework.",
+        "icon": "💚"
+    },
+    {
+        "id": "angular",
+        "title": "Angular",
+        "type": "skill",
+        "description": "Platform for building mobile and desktop apps.",
+        "icon": "🅰️"
+    },
+    {
+        "id": "nextjs",
+        "title": "Next.js",
+        "type": "skill",
+        "description": "The React Framework for Production.",
+        "icon": "▲"
+    },
+    {
+        "id": "react-native",
+        "title": "React Native",
+        "type": "skill",
+        "description": "Learn once, write anywhere.",
+        "icon": "📱"
+    },
+    {
+        "id": "flutter",
+        "title": "Flutter",
+        "type": "skill",
+        "description": "UI toolkit for building natively compiled apps.",
+        "icon": "💙"
+    },
+    {
+        "id": "design-systems",
+        "title": "Design Systems",
+        "type": "skill",
+        "description": "Managing design at scale.",
+        "icon": "📏"
+    },
+    {
+        "id": "ux-design-skill",
+        "title": "UX Design",
+        "type": "skill",
+        "description": "Designing user experiences.",
+        "icon": "✨"
+    },
+    {
+        "id": "aspnet-core",
+        "title": "ASP.NET Core",
+        "type": "skill",
+        "description": "Cross-platform, high-performance framework.",
+        "icon": "🖥️"
+    },
+    {
+        "id": "spring-boot",
+        "title": "Spring Boot",
+        "type": "skill",
+        "description": "Build production-grade Spring apps.",
+        "icon": "🍃"
+    },
+    {
+        "id": "api-design",
+        "title": "API Design",
+        "type": "skill",
+        "description": "Architecting robust APIs.",
+        "icon": "🔌"
+    },
+    {
+        "id": "graphql",
+        "title": "GraphQL",
+        "type": "skill",
+        "description": "Query language for APIs.",
+        "icon": "⚛️"
+    },
+    {
+        "id": "laravel",
+        "title": "Laravel",
+        "type": "skill",
+        "description": "PHP Framework for Web Artisans.",
+        "icon": "🟥"
+    },
+    {
+        "id": "django",
+        "title": "Django",
+        "type": "skill",
+        "description": "The web framework for perfectionists.",
+        "icon": "🟩"
+    },
+    {
+        "id": "ruby-on-rails",
+        "title": "Ruby on Rails",
+        "type": "skill",
+        "description": "Web application framework.",
+        "icon": "🛤️"
+    },
+    {
+        "id": "wordpress",
+        "title": "WordPress",
+        "type": "skill",
+        "description": "Content Management System.",
+        "icon": "📝"
+    },
+    {
+        "id": "postgresql",
+        "title": "PostgreSQL",
+        "type": "skill",
+        "description": "Advanced Open Source Relational Database.",
+        "icon": "🐘"
+    },
+    {
+        "id": "mongodb",
+        "title": "MongoDB",
+        "type": "skill",
+        "description": "The application data platform.",
+        "icon": "🍃"
+    },
+    {
+        "id": "redis",
+        "title": "Redis",
+        "type": "skill",
+        "description": "In-memory data store.",
+        "icon": "🔴"
+    },
+    {
+        "id": "elasticsearch",
+        "title": "Elasticsearch",
+        "type": "skill",
+        "description": "Distributed, RESTful search engine.",
+        "icon": "🔍"
+    },
+    {
+        "id": "linux",
+        "title": "Linux",
+        "type": "skill",
+        "description": "Open source operating system.",
+        "icon": "🐧"
+    },
+    {
+        "id": "docker",
+        "title": "Docker",
+        "type": "skill",
+        "description": "Containerization platform.",
+        "icon": "🐳"
+    },
+    {
+        "id": "kubernetes",
+        "title": "Kubernetes",
+        "type": "skill",
+        "description": "Container orchestration.",
+        "icon": "☸️"
+    },
+    {
+        "id": "aws",
+        "title": "AWS",
+        "type": "skill",
+        "description": "Amazon Web Services.",
+        "icon": "☁️"
+    },
+    {
+        "id": "terraform",
+        "title": "Terraform",
+        "type": "skill",
+        "description": "Infrastructure as Code.",
+        "icon": "🏗️"
+    },
+    {
+        "id": "cloudflare",
+        "title": "Cloudflare",
+        "type": "skill",
+        "description": "Web performance and security.",
+        "icon": "🌩️"
+    },
+    {
+        "id": "dsa",
+        "title": "Data Structures & Algo",
+        "type": "skill",
+        "description": "Fundamental building blocks.",
+        "icon": "📚"
+    },
+    {
+        "id": "system-design",
+        "title": "System Design",
+        "type": "skill",
+        "description": "Designing scalable systems.",
+        "icon": "📐"
+    },
+    {
+        "id": "machine-learning-skill",
+        "title": "Machine Learning",
+        "type": "skill",
+        "description": "Building intelligent systems.",
+        "icon": "🧠"
+    },
+    {
+        "id": "prompt-engineering",
+        "title": "Prompt Engineering",
+        "type": "skill",
+        "description": "Crafting inputs for AI models.",
+        "icon": "💬"
+    },
+    {
+        "id": "ai-agents",
+        "title": "AI Agents",
+        "type": "skill",
+        "description": "Autonomous AI systems.",
+        "icon": "🤖"
+    },
+    {
+        "id": "ai-red-teaming",
+        "title": "AI Red Teaming",
+        "type": "skill",
+        "description": "Testing AI safety.",
+        "icon": "🛡️"
+    },
+    {
+        "id": "mlops-skill",
+        "title": "MLOps",
+        "type": "skill",
+        "description": "Machine Learning Operations.",
+        "icon": "🔄"
+    },
+    {
+        "id": "code-review",
+        "title": "Code Review",
+        "type": "skill",
+        "description": "Ensuring code quality.",
+        "icon": "👀"
+    },
+    {
+        "id": "testing-qa",
+        "title": "Testing & QA",
+        "type": "skill",
+        "description": "Verifying software correctness.",
+        "icon": "✅"
+    },
+    {
+        "id": "security-practices",
+        "title": "Security Best Practices",
+        "type": "skill",
+        "description": "Securing applications.",
+        "icon": "🔒"
+    }
+]

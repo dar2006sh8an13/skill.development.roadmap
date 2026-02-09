@@ -1,0 +1,454 @@
+{
+  "id": "devops",
+  "title": "DevOps Engineer",
+  "type": "role",
+  "description": "Bridge the gap between development and operations.",
+  "estimatedTime": "6-12 Months",
+  "overview": "This roadmap covers the essential skills to become a DevOps Engineer.",
+  "careerScope": "High demand in the industry.",
+  "companiesHiring": [
+    "Tech Giants",
+    "Startups",
+    "Enterprises"
+  ],
+  "skills": [
+    "Skill 1",
+    "Skill 2",
+    "Skill 3"
+  ],
+  "roadmap": {
+    "beginner": [
+      {
+        "name": "Basics 101",
+        "desc": "Learn the fundamentals.",
+        "status": "required"
+      },
+      {
+        "name": "Core Concepts",
+        "desc": "Deep dive into core topics.",
+        "status": "required"
+      }
+    ],
+    "intermediate": [
+      {
+        "name": "Advanced Topics",
+        "desc": "Moving beyond basics.",
+        "status": "required"
+      },
+      {
+        "name": "Frameworks",
+        "desc": "Industry standard tools.",
+        "status": "required"
+      }
+    ],
+    "advanced": [
+      {
+        "name": "Architecture",
+        "desc": "System design and patterns.",
+        "status": "required"
+      },
+      {
+        "name": "Optimization",
+        "desc": "Performance tuning.",
+        "status": "optional"
+      }
+    ]
+  },
+  "tools": [
+    "VS Code",
+    "Git"
+  ],
+  "projects": [
+    {
+      "id": "proj-devops-beginner-0",
+      "title": "Scripted Backup",
+      "level": "Beginner",
+      "problemStatement": "Data safety.",
+      "description": "Automate backups.",
+      "techStack": [
+        "Bash"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-devops-beginner-1",
+      "title": "Server Setup",
+      "level": "Beginner",
+      "problemStatement": "Provisioning.",
+      "description": "Config basic server.",
+      "techStack": [
+        "SSH"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-devops-beginner-2",
+      "title": "Dockerized App",
+      "level": "Beginner",
+      "problemStatement": "Containers.",
+      "description": "Containerize an app.",
+      "techStack": [
+        "Docker"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-devops-beginner-3",
+      "title": "Monitor Dashboard",
+      "level": "Beginner",
+      "problemStatement": "Visibility.",
+      "description": "Simple health check.",
+      "techStack": [
+        "Uptime Kuma"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-devops-beginner-4",
+      "title": "Static Site Deploy",
+      "level": "Beginner",
+      "problemStatement": "Hosting.",
+      "description": "Deploy to S3/Netlify.",
+      "techStack": [
+        "CI"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-devops-intermediate-0",
+      "title": "CI/CD Pipeline",
+      "level": "Intermediate",
+      "problemStatement": "Automation.",
+      "description": "Build and test.",
+      "techStack": [
+        "GitHub Actions"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-devops-intermediate-1",
+      "title": "K8s Deployment",
+      "level": "Intermediate",
+      "problemStatement": "Orchestration.",
+      "description": "Deploy to cluster.",
+      "techStack": [
+        "Kubernetes"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-devops-intermediate-2",
+      "title": "Infrastructure as Code",
+      "level": "Intermediate",
+      "problemStatement": "Reproducibility.",
+      "description": "Provision cloud.",
+      "techStack": [
+        "Terraform"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-devops-intermediate-3",
+      "title": "Log Aggregator",
+      "level": "Intermediate",
+      "problemStatement": "Debugging.",
+      "description": "Centralized logs.",
+      "techStack": [
+        "ELK Stack"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-devops-intermediate-4",
+      "title": "CDN Setup",
+      "level": "Intermediate",
+      "problemStatement": "Performance.",
+      "description": "Global delivery.",
+      "techStack": [
+        "Cloudflare"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-devops-advanced-0",
+      "title": "Service Mesh",
+      "level": "Advanced",
+      "problemStatement": "Networking.",
+      "description": "Manage traffic.",
+      "techStack": [
+        "Istio"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-devops-advanced-1",
+      "title": "GitOps Workflow",
+      "level": "Advanced",
+      "problemStatement": "Operations.",
+      "description": "Sync cluster state.",
+      "techStack": [
+        "ArgoCD"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-devops-advanced-2",
+      "title": "Zero Trust Network",
+      "level": "Advanced",
+      "problemStatement": "Security.",
+      "description": "Secure access.",
+      "techStack": [
+        "VPN/Wireguard"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-devops-capstone-0",
+      "title": "Self-Healing System",
+      "level": "Capstone",
+      "problemStatement": "Reliability.",
+      "description": "Auto-remediation.",
+      "techStack": [
+        "Prometheus",
+        "Webhooks"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-devops-capstone-1",
+      "title": "Multi-Cloud Platform",
+      "level": "Capstone",
+      "problemStatement": "Redundancy.",
+      "description": "Deploy across clouds.",
+      "techStack": [
+        "Terraform"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    }
+  ]
+}

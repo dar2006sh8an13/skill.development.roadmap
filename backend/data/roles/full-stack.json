@@ -1,0 +1,534 @@
+{
+  "id": "full-stack",
+  "title": "Full Stack Developer",
+  "type": "role",
+  "description": "Master both frontend and backend development to build complete web applications.",
+  "estimatedTime": "6-12 Months",
+  "overview": "A Full Stack Developer is comfortable working with both back-end and front-end technologies. To be more specific, it means that the developer can work with databases, PHP, HTML, CSS, JavaScript and everything in between, also, venturing as far as converting Photoshop designs to front-end code.",
+  "careerScope": "High demand in startups and large tech companies. Salaries range from $80k - $150k+ depending on experience.",
+  "companiesHiring": [
+    "Google",
+    "Facebook",
+    "Amazon",
+    "Netflix",
+    "Uber",
+    "Airbnb"
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "SQL",
+    "Git"
+  ],
+  "roadmap": {
+    "beginner": [
+      {
+        "name": "HTML & CSS",
+        "desc": "Learn the building blocks of the web.",
+        "status": "required"
+      },
+      {
+        "name": "JavaScript Basics",
+        "desc": "Learn stored procedures, variables, loops.",
+        "status": "required",
+        "skillId": "javascript"
+      },
+      {
+        "name": "Git & GitHub",
+        "desc": "Version control is essential.",
+        "status": "required",
+        "skillId": "git"
+      }
+    ],
+    "intermediate": [
+      {
+        "name": "Frontend Frameworks",
+        "desc": "React, Vue or Angular.",
+        "status": "required",
+        "skillId": "react"
+      },
+      {
+        "name": "Backend Basics",
+        "desc": "Node.js, Express, Python.",
+        "status": "required",
+        "skillId": "nodejs"
+      },
+      {
+        "name": "Databases",
+        "desc": "SQL vs NoSQL.",
+        "status": "required",
+        "skillId": "sql-nosql"
+      }
+    ],
+    "advanced": [
+      {
+        "name": "System Design",
+        "desc": "Learn how to architect large scale systems.",
+        "status": "required"
+      },
+      {
+        "name": "DevOps",
+        "desc": "CI/CD, Docker, Kubernetes.",
+        "status": "optional",
+        "skillId": "deployment"
+      },
+      {
+        "name": "Security",
+        "desc": "OWASP Top 10.",
+        "status": "required",
+        "skillId": "security"
+      }
+    ]
+  },
+  "tools": [
+    "VS Code",
+    "Postman",
+    "Chrome DevTools",
+    "Figma",
+    "Jira"
+  ],
+  "responsibilities": [
+    "Design and implementation of the overall web architecture",
+    "“Pixel-perfect” implementation of our approved user interface",
+    "Design and deployment of our database",
+    "Ensuring the entire stack is designed and built for speed and scalability",
+    "Design and construction of our REST API",
+    "Integrating our front-end UI with the constructed API",
+    "Design and implementation of continuous integration and deployment"
+  ],
+  "projects": [
+    {
+      "id": "proj-web-beginner-0",
+      "title": "Personal Portfolio",
+      "level": "Beginner",
+      "problemStatement": "Need to showcase skills.",
+      "description": "A responsive personal website.",
+      "techStack": [
+        "HTML",
+        "CSS"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-web-beginner-1",
+      "title": "To-Do List",
+      "level": "Beginner",
+      "problemStatement": "Task management.",
+      "description": "Simple CRUD app.",
+      "techStack": [
+        "JS",
+        "DOM"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-web-beginner-2",
+      "title": "Weather App",
+      "level": "Beginner",
+      "problemStatement": "Check weather.",
+      "description": "Fetch data from API.",
+      "techStack": [
+        "Fetch API",
+        "JSON"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-web-beginner-3",
+      "title": "Calculator",
+      "level": "Beginner",
+      "problemStatement": "Basic math.",
+      "description": "Functional calculator.",
+      "techStack": [
+        "JS Logic"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-web-beginner-4",
+      "title": "Landing Page",
+      "level": "Beginner",
+      "problemStatement": "Marketing.",
+      "description": "Product landing page.",
+      "techStack": [
+        "CSS Grid"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-web-intermediate-0",
+      "title": "Blog Platform",
+      "level": "Intermediate",
+      "problemStatement": "Content publishing.",
+      "description": "Full CMS with auth.",
+      "techStack": [
+        "Node",
+        "Express",
+        "Mongo"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-web-intermediate-1",
+      "title": "E-commerce Store",
+      "level": "Intermediate",
+      "problemStatement": "Online sales.",
+      "description": "Shopping cart & checkout.",
+      "techStack": [
+        "React",
+        "Stripe"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-web-intermediate-2",
+      "title": "Chat App",
+      "level": "Intermediate",
+      "problemStatement": "Real-time comms.",
+      "description": "Live messaging.",
+      "techStack": [
+        "Socket.io"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-web-intermediate-3",
+      "title": "Task Manager",
+      "level": "Intermediate",
+      "problemStatement": "Productivity.",
+      "description": "Drag & drop boards.",
+      "techStack": [
+        "React DnD"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-web-intermediate-4",
+      "title": "Recipe Finder",
+      "level": "Intermediate",
+      "problemStatement": "Food search.",
+      "description": "Search with filters.",
+      "techStack": [
+        "External API"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-web-advanced-0",
+      "title": "Social Network",
+      "level": "Advanced",
+      "problemStatement": "Connecting people.",
+      "description": "Full social graph.",
+      "techStack": [
+        "Graph DB",
+        "React"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-web-advanced-1",
+      "title": "SaaS Dashboard",
+      "level": "Advanced",
+      "problemStatement": "Analytics.",
+      "description": "Data viz & reporting.",
+      "techStack": [
+        "D3.js",
+        "Auth0"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-web-advanced-2",
+      "title": "Streaming Service",
+      "level": "Advanced",
+      "problemStatement": "Video content.",
+      "description": "Video delivery.",
+      "techStack": [
+        "HLS",
+        "CDN"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-web-capstone-0",
+      "title": "Enterprise ERP",
+      "level": "Capstone",
+      "problemStatement": "Business management.",
+      "description": "Complex role-based system.",
+      "techStack": [
+        "Microservices"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-web-capstone-1",
+      "title": "Collaborative Editor",
+      "level": "Capstone",
+      "problemStatement": "Real-time work.",
+      "description": "Google Docs clone.",
+      "techStack": [
+        "WebSockets",
+        "OT"
+      ],
+      "modules": [
+        "Core Logic",
+        "UI/Interface",
+        "Data Handling"
+      ],
+      "guide": [
+        "Step 1: Set up the environment.",
+        "Step 2: Implement core features.",
+        "Step 3: Add styling and polish.",
+        "Step 4: Deploy and test."
+      ],
+      "requirements": [
+        "Basic understanding of concepts",
+        "Development environment"
+      ],
+      "repoLink": "#"
+    }
+  ],
+  "bestPractices": [
+    "Write clean, modular code",
+    "Test your code (Unit, Integration, E2E)",
+    "Keep security in mind from day one",
+    "Use version control for everything",
+    "Document your API"
+  ],
+  "commonMistakes": [
+    "Trying to learn everything at once",
+    "Skipping the basics (Vanilla JS)",
+    "Not understanding how the internet works",
+    "Ignoring accessibility",
+    "Copy-pasting code without understanding"
+  ],
+  "resources": [
+    {
+      "name": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/"
+    },
+    {
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/"
+    },
+    {
+      "name": "CS50 by Harvard",
+      "url": "https://cs50.harvard.edu/x/"
+    }
+  ]
+}

@@ -1,0 +1,3442 @@
+[
+  {
+    "id": "beg-1",
+    "title": "Personal Portfolio Website",
+    "level": "Beginner",
+    "category": "Beginner",
+    "techStack": [
+      "HTML",
+      "CSS"
+    ],
+    "description": "A responsive personal portfolio to showcase your skills and projects.",
+    "problemStatement": "Build a personal online presence.",
+    "learningOutcomes": [
+      "HTML Structure",
+      "CSS Layouts (Flexbox/Grid)",
+      "Responsive Design"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy using GitHub Pages or Netlify Drop.",
+    "securityConsiderations": "Basic input validation."
+  },
+  {
+    "id": "beg-2",
+    "title": "Responsive Landing Page",
+    "level": "Beginner",
+    "category": "Beginner",
+    "techStack": [
+      "HTML",
+      "CSS"
+    ],
+    "description": "A marketing landing page with a hero section, features, and call to action.",
+    "problemStatement": "Create a high-converting landing page.",
+    "learningOutcomes": [
+      "Semantic HTML",
+      "CSS Media Queries"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy using GitHub Pages or Netlify Drop.",
+    "securityConsiderations": "Basic input validation."
+  },
+  {
+    "id": "beg-3",
+    "title": "To-Do List Application",
+    "level": "Beginner",
+    "category": "Beginner",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "A manage task application with add, delete, and mark as complete features.",
+    "problemStatement": "Manage daily tasks efficiently.",
+    "learningOutcomes": [
+      "DOM Manipulation",
+      "Event Handling",
+      "Local Storage"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy using GitHub Pages or Netlify Drop.",
+    "securityConsiderations": "Basic input validation."
+  },
+  {
+    "id": "beg-4",
+    "title": "Calculator App",
+    "level": "Beginner",
+    "category": "Beginner",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "A functional calculator with basic arithmetic operations.",
+    "problemStatement": "Perform basic calculations in the browser.",
+    "learningOutcomes": [
+      "JS Logic",
+      "UI/UX Design"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy using GitHub Pages or Netlify Drop.",
+    "securityConsiderations": "Basic input validation."
+  },
+  {
+    "id": "beg-5",
+    "title": "Weather Application",
+    "level": "Beginner",
+    "category": "Beginner",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "API"
+    ],
+    "description": "Fetches and displays weather data from an external API.",
+    "problemStatement": "Visualize real-time weather data.",
+    "learningOutcomes": [
+      "Fetch API",
+      "Async/Await",
+      "JSON Parsing"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy using GitHub Pages or Netlify Drop.",
+    "securityConsiderations": "Basic input validation."
+  },
+  {
+    "id": "beg-6",
+    "title": "Notes App",
+    "level": "Beginner",
+    "category": "Beginner",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "Create and save text notes in the browser.",
+    "problemStatement": "Keep track of quick thoughts and ideas.",
+    "learningOutcomes": [
+      "CRUD operations",
+      "Local Storage"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy using GitHub Pages or Netlify Drop.",
+    "securityConsiderations": "Basic input validation."
+  },
+  {
+    "id": "beg-7",
+    "title": "Login & Signup UI",
+    "level": "Beginner",
+    "category": "Beginner",
+    "techStack": [
+      "HTML",
+      "CSS"
+    ],
+    "description": "A styled login and registration form interface.",
+    "problemStatement": "Design a user authentication interface.",
+    "learningOutcomes": [
+      "Form Styling",
+      "Input Validation (Basic)"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy using GitHub Pages or Netlify Drop.",
+    "securityConsiderations": "Basic input validation."
+  },
+  {
+    "id": "beg-8",
+    "title": "Blog Website (Static)",
+    "level": "Beginner",
+    "category": "Beginner",
+    "techStack": [
+      "HTML",
+      "CSS"
+    ],
+    "description": "A multi-page static blog site.",
+    "problemStatement": "Share articles and content.",
+    "learningOutcomes": [
+      "Linking pages",
+      "Semantic Layout"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy using GitHub Pages or Netlify Drop.",
+    "securityConsiderations": "Basic input validation."
+  },
+  {
+    "id": "beg-9",
+    "title": "Form Validation System",
+    "level": "Beginner",
+    "category": "Beginner",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "Client-side validation for a registration form.",
+    "problemStatement": "Ensure user input data integrity.",
+    "learningOutcomes": [
+      "Regex",
+      "Form Events"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy using GitHub Pages or Netlify Drop.",
+    "securityConsiderations": "Basic input validation."
+  },
+  {
+    "id": "beg-10",
+    "title": "URL Shortener (Basic)",
+    "level": "Beginner",
+    "category": "Beginner",
+    "techStack": [
+      "HTML",
+      "JS"
+    ],
+    "description": "Mock interface for distinct URL shortening.",
+    "problemStatement": "Shorten long URLs for sharing.",
+    "learningOutcomes": [
+      "String manipulation"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy using GitHub Pages or Netlify Drop.",
+    "securityConsiderations": "Basic input validation."
+  },
+  {
+    "id": "beg-11",
+    "title": "REST API CRUD App",
+    "level": "Beginner",
+    "category": "Beginner",
+    "techStack": [
+      "Node.js",
+      "Express"
+    ],
+    "description": "Basic backend API for Create, Read, Update, Delete.",
+    "problemStatement": "Manage resources via API.",
+    "learningOutcomes": [
+      "Routing",
+      "HTTP Methods"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy using GitHub Pages or Netlify Drop.",
+    "securityConsiderations": "Basic input validation."
+  },
+  {
+    "id": "beg-12",
+    "title": "Expense Tracker",
+    "level": "Beginner",
+    "category": "Beginner",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "description": "Track income and expenses with a simple UI.",
+    "problemStatement": "Monitor personal finances.",
+    "learningOutcomes": [
+      "Array methods",
+      "DOM updates"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy using GitHub Pages or Netlify Drop.",
+    "securityConsiderations": "Basic input validation."
+  },
+  {
+    "id": "beg-13",
+    "title": "Quiz Application",
+    "level": "Beginner",
+    "category": "Beginner",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "description": "Interactive multiple choice quiz.",
+    "problemStatement": "Test knowledge on a subject.",
+    "learningOutcomes": [
+      "State management",
+      "Conditional logic"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy using GitHub Pages or Netlify Drop.",
+    "securityConsiderations": "Basic input validation."
+  },
+  {
+    "id": "beg-14",
+    "title": "Stopwatch / Timer App",
+    "level": "Beginner",
+    "category": "Beginner",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "description": "A functional stopwatch with lap capabilities.",
+    "problemStatement": "Measure time intervals.",
+    "learningOutcomes": [
+      "setInterval",
+      "Date object"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy using GitHub Pages or Netlify Drop.",
+    "securityConsiderations": "Basic input validation."
+  },
+  {
+    "id": "beg-15",
+    "title": "Simple Chat UI",
+    "level": "Beginner",
+    "category": "Beginner",
+    "techStack": [
+      "HTML",
+      "CSS"
+    ],
+    "description": "Static layout for a messaging application.",
+    "problemStatement": "Design a communication interface.",
+    "learningOutcomes": [
+      "layout techniques",
+      "CSS positioning"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy using GitHub Pages or Netlify Drop.",
+    "securityConsiderations": "Basic input validation."
+  },
+  {
+    "id": "int-1",
+    "title": "Authentication & Authorization System",
+    "level": "Intermediate",
+    "category": "Intermediate",
+    "techStack": [
+      "Node.js",
+      "Express",
+      "JWT",
+      "MongoDB"
+    ],
+    "description": "Secure user login and registration system with token-based auth.",
+    "problemStatement": "Securely manage user access.",
+    "learningOutcomes": [
+      "Hashing",
+      "JWT",
+      "Middleware"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "int-2",
+    "title": "REST API with JWT",
+    "level": "Intermediate",
+    "category": "Intermediate",
+    "techStack": [
+      "Node.js",
+      "Express",
+      "JWT"
+    ],
+    "description": "Protected API endpoints accessible only with valid tokens.",
+    "problemStatement": "Secure API resources.",
+    "learningOutcomes": [
+      "Bearer Tokens",
+      "Security Best Practices"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "int-3",
+    "title": "E-Commerce Website",
+    "level": "Intermediate",
+    "category": "Intermediate",
+    "techStack": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "description": "Product listing, cart management, and checkout simulation.",
+    "problemStatement": "Sell products online.",
+    "learningOutcomes": [
+      "State Management (Redux/Context)",
+      "API Integration"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "int-4",
+    "title": "Blog Platform with Admin Panel",
+    "level": "Intermediate",
+    "category": "Intermediate",
+    "techStack": [
+      "Next.js",
+      "PostgreSQL"
+    ],
+    "description": "CRUD blog posts with a dedicated dashboard for admins.",
+    "problemStatement": "Manage content publication.",
+    "learningOutcomes": [
+      "SSR/ISR",
+      "Relational DB"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "int-5",
+    "title": "Real-Time Chat Application",
+    "level": "Intermediate",
+    "category": "Intermediate",
+    "techStack": [
+      "Socket.io",
+      "React",
+      "Node.js"
+    ],
+    "description": "Instant messaging between users in real-time.",
+    "problemStatement": "Enable instant communication.",
+    "learningOutcomes": [
+      "WebSockets",
+      "Event broadcasting"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "int-6",
+    "title": "Job Portal System",
+    "level": "Intermediate",
+    "category": "Intermediate",
+    "techStack": [
+      "MERN Stack"
+    ],
+    "description": "Platform for posting and applying to jobs.",
+    "problemStatement": "Connect employers and job seekers.",
+    "learningOutcomes": [
+      "Complex Schema Design",
+      "Filtering"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "int-7",
+    "title": "Online Learning Platform (LMS)",
+    "level": "Intermediate",
+    "category": "Intermediate",
+    "techStack": [
+      "React",
+      "Firebase"
+    ],
+    "description": "Host courses and track student progress.",
+    "problemStatement": "Deliver educational content.",
+    "learningOutcomes": [
+      "Video handling",
+      "User progress tracking"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "int-8",
+    "title": "File Upload & Management System",
+    "level": "Intermediate",
+    "category": "Intermediate",
+    "techStack": [
+      "Node.js",
+      "Multer",
+      "AWS S3"
+    ],
+    "description": "Upload, store, and retrieve files securely.",
+    "problemStatement": "Manage digital assets.",
+    "learningOutcomes": [
+      "File streams",
+      "Cloud Storage"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "int-9",
+    "title": "Dashboard with Charts & Analytics",
+    "level": "Intermediate",
+    "category": "Intermediate",
+    "techStack": [
+      "React",
+      "Chart.js",
+      "D3.js"
+    ],
+    "description": "Visualize data sets with interactive charts.",
+    "problemStatement": "Interpret complex data.",
+    "learningOutcomes": [
+      "Data Visualization",
+      "Library Integration"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "int-10",
+    "title": "Payment Gateway Integration",
+    "level": "Intermediate",
+    "category": "Intermediate",
+    "techStack": [
+      "Stripe API",
+      "Node.js"
+    ],
+    "description": "Process payments securely in a web app.",
+    "problemStatement": "Handle monetary transactions.",
+    "learningOutcomes": [
+      "Third-party API integration",
+      "Webhooks"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "int-11",
+    "title": "API Rate Limiting System",
+    "level": "Intermediate",
+    "category": "Intermediate",
+    "techStack": [
+      "Redis",
+      "Node.js"
+    ],
+    "description": "Middleware to limit requests from a single IP.",
+    "problemStatement": "Prevent API abuse.",
+    "learningOutcomes": [
+      "Caching",
+      "Middleware Logic"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "int-12",
+    "title": "Search Engine with Filters",
+    "level": "Intermediate",
+    "category": "Intermediate",
+    "techStack": [
+      "Elasticsearch",
+      "Node.js"
+    ],
+    "description": "Fast full-text search with faceted filtering.",
+    "problemStatement": "Find specific content quickly.",
+    "learningOutcomes": [
+      "Search indexing",
+      "Query optimization"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "int-13",
+    "title": "Multi-User Role Management",
+    "level": "Intermediate",
+    "category": "Intermediate",
+    "techStack": [
+      "PostgreSQL",
+      "Express"
+    ],
+    "description": "Admin, Editor, User roles with different permissions.",
+    "problemStatement": "Control access levels.",
+    "learningOutcomes": [
+      "RBAC",
+      "Access Control Lists"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "int-14",
+    "title": "Inventory Management System",
+    "level": "Intermediate",
+    "category": "Intermediate",
+    "techStack": [
+      "React",
+      "Express",
+      "SQL"
+    ],
+    "description": "Track stock levels, sales, and orders.",
+    "problemStatement": "Manage warehouse operations.",
+    "learningOutcomes": [
+      "CRUD at scale",
+      "Reporting"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "int-15",
+    "title": "URL Monitoring Tool",
+    "level": "Intermediate",
+    "category": "Intermediate",
+    "techStack": [
+      "Node.js",
+      "Cron Jobs"
+    ],
+    "description": "Periodically check website uptime and alert on failure.",
+    "problemStatement": "Ensure service availability.",
+    "learningOutcomes": [
+      "Scheduled tasks",
+      "Alerting"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "adv-1",
+    "title": "Full Stack SaaS Platform",
+    "level": "Advanced",
+    "category": "Advanced",
+    "techStack": [
+      "Next.js",
+      "Supabase",
+      "Stripe"
+    ],
+    "description": "Subscription-based software service with recurring billing.",
+    "problemStatement": "Monetize software features.",
+    "learningOutcomes": [
+      "SaaS Architecture",
+      "Subscription models"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "adv-2",
+    "title": "Microservices Architecture Application",
+    "level": "Advanced",
+    "category": "Advanced",
+    "techStack": [
+      "Docker",
+      "Kubernetes",
+      "Node.js",
+      "Go"
+    ],
+    "description": "Decompose a monolith into communicating services.",
+    "problemStatement": "Scale complex applications.",
+    "learningOutcomes": [
+      "Service discovery",
+      "Inter-service communication"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "adv-3",
+    "title": "Scalable E-Commerce System",
+    "level": "Advanced",
+    "category": "Advanced",
+    "techStack": [
+      "Microservices",
+      "Kafka"
+    ],
+    "description": "Handle high traffic and order processing asynchronously.",
+    "problemStatement": "Support thousands of concurrent users.",
+    "learningOutcomes": [
+      "Event-driven architecture",
+      "Message Queues"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "adv-4",
+    "title": "Real-Time Notification System",
+    "level": "Advanced",
+    "category": "Advanced",
+    "techStack": [
+      "WebSockets",
+      "Redis Pub/Sub"
+    ],
+    "description": "Push alerts to users instantly across devices.",
+    "problemStatement": "Keep users engaged.",
+    "learningOutcomes": [
+      "Scalable WebSockets",
+      "Pub/Sub pattern"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "adv-5",
+    "title": "Cloud-Deployed Web Application",
+    "level": "Advanced",
+    "category": "Advanced",
+    "techStack": [
+      "AWS/GCP",
+      "Terraform",
+      "CI/CD"
+    ],
+    "description": "Automated deployment infrastructure for a web app.",
+    "problemStatement": "Ensure reliable delivery.",
+    "learningOutcomes": [
+      "IaC",
+      "DevOps practices"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "adv-6",
+    "title": "Distributed System Simulation",
+    "level": "Advanced",
+    "category": "Advanced",
+    "techStack": [
+      "Go",
+      "gRPC"
+    ],
+    "description": "Simulate consensus algorithms (Rafty/Paxos).",
+    "problemStatement": "Understand distributed consistency.",
+    "learningOutcomes": [
+      "Distributed Systems",
+      "RPC"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "adv-7",
+    "title": "Recommendation System",
+    "level": "Advanced",
+    "category": "Advanced",
+    "techStack": [
+      "Python",
+      "TensorFlow"
+    ],
+    "description": "Suggest content based on user behavior.",
+    "problemStatement": "Personalize user experience.",
+    "learningOutcomes": [
+      "Collaborative filtering",
+      "ML Basics"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "adv-8",
+    "title": "AI-Powered Chatbot",
+    "level": "Advanced",
+    "category": "Advanced",
+    "techStack": [
+      "OpenAI API",
+      "LangChain"
+    ],
+    "description": "Intelligent conversational agent.",
+    "problemStatement": "Automate customer support.",
+    "learningOutcomes": [
+      "LLM integration",
+      "Prompt Engineering"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "adv-9",
+    "title": "Secure Authentication System (OAuth2)",
+    "level": "Advanced",
+    "category": "Advanced",
+    "techStack": [
+      "OAuth2",
+      "OpenID Connect"
+    ],
+    "description": "Implement Google/Facebook login provider.",
+    "problemStatement": "Simplify login process securely.",
+    "learningOutcomes": [
+      "Identity Protocols",
+      "Security Tokens"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "adv-10",
+    "title": "API Gateway & Load Balancer",
+    "level": "Advanced",
+    "category": "Advanced",
+    "techStack": [
+      "Nginx",
+      "Node.js"
+    ],
+    "description": "Route traffic and balance load across servers.",
+    "problemStatement": "Manage high availability.",
+    "learningOutcomes": [
+      "Reverse Proxying",
+      "Load Balancing algorithms"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "adv-11",
+    "title": "High-Performance Caching System",
+    "level": "Advanced",
+    "category": "Advanced",
+    "techStack": [
+      "Redis",
+      "Memcached"
+    ],
+    "description": "Optimize data retrieval latency.",
+    "problemStatement": "Reduce database load.",
+    "learningOutcomes": [
+      "Caching strategies (LRU/LFU)",
+      "In-memory stores"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "adv-12",
+    "title": "Full-Text Search Engine",
+    "level": "Advanced",
+    "category": "Advanced",
+    "techStack": [
+      "Inverted Index algorithm"
+    ],
+    "description": "Build a search engine from scratch.",
+    "problemStatement": "Index and retrieve text data.",
+    "learningOutcomes": [
+      "Data Structures",
+      "Algorithms"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "adv-13",
+    "title": "Video Streaming Platform",
+    "level": "Advanced",
+    "category": "Advanced",
+    "techStack": [
+      "FFmpeg",
+      "HLS/DASH"
+    ],
+    "description": "Stream video content with adaptive bitrate.",
+    "problemStatement": "Deliver buffer-free video.",
+    "learningOutcomes": [
+      "Video encoding",
+      "Streaming protocols"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "adv-14",
+    "title": "System Design Case Study Implementation",
+    "level": "Advanced",
+    "category": "Advanced",
+    "techStack": [
+      "Various"
+    ],
+    "description": "Implement a clone of TinyURL / Uber backend.",
+    "problemStatement": "Apply system design principles.",
+    "learningOutcomes": [
+      "Scalability",
+      "Reliability"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "adv-15",
+    "title": "Multi-Tenant Application",
+    "level": "Advanced",
+    "category": "Advanced",
+    "techStack": [
+      "PostgreSQL (Schemas)"
+    ],
+    "description": "Serve multiple customers from a single instance.",
+    "problemStatement": "Isolate customer data.",
+    "learningOutcomes": [
+      "Data Isolation",
+      "Tenant Management"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Set up database schema and connection.",
+      "Implement authentication middleware.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy frontend to Vercel, backend to Render/Heroku.",
+    "securityConsiderations": "Implement JWT authentication, secure headers (Helmet), and rate limiting."
+  },
+  {
+    "id": "cap-1",
+    "title": "End-to-End Job Recommendation Platform",
+    "level": "Capstone",
+    "category": "Industry / Capstone",
+    "techStack": [
+      "ML",
+      "Full Stack"
+    ],
+    "description": "Match resumes to job descriptions using NLP.",
+    "problemStatement": "Automate recruitment.",
+    "learningOutcomes": [
+      "End-to-end delivery",
+      "AI Integration"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "cap-2",
+    "title": "AI-Based Resume Screening System",
+    "level": "Capstone",
+    "category": "Industry / Capstone",
+    "techStack": [
+      "NLP",
+      "Python"
+    ],
+    "description": "Score and rank candidates automatically.",
+    "problemStatement": "Filter high volume applications.",
+    "learningOutcomes": [
+      "Text processing",
+      "Ranking algorithms"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "cap-3",
+    "title": "Fraud Detection System",
+    "level": "Capstone",
+    "category": "Industry / Capstone",
+    "techStack": [
+      "Anomaly Detection",
+      "Big Data"
+    ],
+    "description": "Identify suspicious financial transactions in real-time.",
+    "problemStatement": "Prevent financial loss.",
+    "learningOutcomes": [
+      "Pattern recognition",
+      "Real-time processing"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "cap-4",
+    "title": "Predictive Analytics Dashboard",
+    "level": "Capstone",
+    "category": "Industry / Capstone",
+    "techStack": [
+      "Data Science",
+      "Visualization"
+    ],
+    "description": "Forecast business trends based on historical data.",
+    "problemStatement": "Enable data-driven decisions.",
+    "learningOutcomes": [
+      "Forecasting models",
+      "Business Intelligence"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "cap-5",
+    "title": "Smart Attendance System",
+    "level": "Capstone",
+    "category": "Industry / Capstone",
+    "techStack": [
+      "Face Recognition",
+      "IoT"
+    ],
+    "description": "Automated attendance tracking using cameras.",
+    "problemStatement": "Streamline workforce management.",
+    "learningOutcomes": [
+      "Computer Vision",
+      "Hardware integration"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "cap-6",
+    "title": "Ride Booking Platform",
+    "level": "Capstone",
+    "category": "Industry / Capstone",
+    "techStack": [
+      "Geolocation",
+      "Real-time socket"
+    ],
+    "description": "Connect drivers and riders (Uber clone).",
+    "problemStatement": "Logistics optimization.",
+    "learningOutcomes": [
+      "Geo-spatial data",
+      "Matching algorithms"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "cap-7",
+    "title": "Food Delivery Platform",
+    "level": "Capstone",
+    "category": "Industry / Capstone",
+    "techStack": [
+      "Full Stack",
+      "Maps API"
+    ],
+    "description": "Order food and track delivery.",
+    "problemStatement": "Hyper-local logistics.",
+    "learningOutcomes": [
+      "Order state machine",
+      "Live tracking"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "cap-8",
+    "title": "Healthcare Management System",
+    "level": "Capstone",
+    "category": "Industry / Capstone",
+    "techStack": [
+      "HIPAA Compliance",
+      "Secure DB"
+    ],
+    "description": "Manage patient records and appointments.",
+    "problemStatement": "Digitize healthcare operations.",
+    "learningOutcomes": [
+      "Data privacy",
+      "Workflow automation"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "cap-9",
+    "title": "FinTech Payment Platform",
+    "level": "Capstone",
+    "category": "Industry / Capstone",
+    "techStack": [
+      "Blockchain/Ledger",
+      "Security"
+    ],
+    "description": "Peer-to-peer money transfer wallet.",
+    "problemStatement": "Democratize finance.",
+    "learningOutcomes": [
+      "Transaction atomicity",
+      "Financial regulations"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "cap-10",
+    "title": "Learning Recommendation Engine",
+    "level": "Capstone",
+    "category": "Industry / Capstone",
+    "techStack": [
+      "Graph DB",
+      "ML"
+    ],
+    "description": "Suggest personalized learning paths.",
+    "problemStatement": "Improve specialized learning.",
+    "learningOutcomes": [
+      "Knowledge Graphs",
+      "Personalization"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "cap-11",
+    "title": "Enterprise Resource Planning (ERP)",
+    "level": "Capstone",
+    "category": "Industry / Capstone",
+    "techStack": [
+      "Complex SQL",
+      "Angular/React"
+    ],
+    "description": "Integrate core business processes.",
+    "problemStatement": "Unify business data.",
+    "learningOutcomes": [
+      "Large scale architecture",
+      "Business logic"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "cap-12",
+    "title": "Cloud Cost Optimization Tool",
+    "level": "Capstone",
+    "category": "Industry / Capstone",
+    "techStack": [
+      "Cloud APIs",
+      "Analytics"
+    ],
+    "description": "Analyze and reduce cloud infrastructure bills.",
+    "problemStatement": "Reduce operational costs.",
+    "learningOutcomes": [
+      "Cost modeling",
+      "API usage"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "cap-13",
+    "title": "DevOps CI/CD Automation Platform",
+    "level": "Capstone",
+    "category": "Industry / Capstone",
+    "techStack": [
+      "Jenkins/GitHub Actions",
+      "Docker"
+    ],
+    "description": "Self-hosted build and deploy system.",
+    "problemStatement": "Accelerate software delivery.",
+    "learningOutcomes": [
+      "Pipeline orchestration",
+      "Containerization"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "cap-14",
+    "title": "MLOps Pipeline System",
+    "level": "Capstone",
+    "category": "Industry / Capstone",
+    "techStack": [
+      "MLflow",
+      "Kubeflow"
+    ],
+    "description": "Manage ML model lifecycle.",
+    "problemStatement": "Operationalize machine learning.",
+    "learningOutcomes": [
+      "Model versioning",
+      "Deployment"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "cap-15",
+    "title": "Cyber Security Threat Detection System",
+    "level": "Capstone",
+    "category": "Industry / Capstone",
+    "techStack": [
+      "SIEM",
+      "Log Analysis"
+    ],
+    "description": "Monitor network traffic for anomalies.",
+    "problemStatement": "Protect infrastructure.",
+    "learningOutcomes": [
+      "Network protocols",
+      "Security analysis"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "ai-1",
+    "title": "Data Analysis Pipeline",
+    "level": "Advanced",
+    "category": "AI & ML",
+    "techStack": [
+      "Pandas",
+      "Airflow"
+    ],
+    "description": "Ingest, clean, and transform data automatically.",
+    "problemStatement": "Prepare data for analysis.",
+    "learningOutcomes": [
+      "ETL processes",
+      "Data wrangling"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Collect and preprocess dataset.",
+      "Train/Fine-tune model.",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy model via API (FastAPI/Flask) or serverless function.",
+    "securityConsiderations": "Sanitize inputs to prevent prompt injection."
+  },
+  {
+    "id": "ai-2",
+    "title": "Machine Learning Model Trainer",
+    "level": "Advanced",
+    "category": "AI & ML",
+    "techStack": [
+      "Scikit-learn",
+      "Python"
+    ],
+    "description": "Train and evaluate predictive models.",
+    "problemStatement": "Build predictive capabilities.",
+    "learningOutcomes": [
+      "Model selection",
+      "Hyperparameter tuning"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Collect and preprocess dataset.",
+      "Train/Fine-tune model.",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy model via API (FastAPI/Flask) or serverless function.",
+    "securityConsiderations": "Sanitize inputs to prevent prompt injection."
+  },
+  {
+    "id": "ai-3",
+    "title": "Recommendation Engine",
+    "level": "Advanced",
+    "category": "AI & ML",
+    "techStack": [
+      "Collaborative Filtering"
+    ],
+    "description": "Personalized item suggestions.",
+    "problemStatement": "Increase user engagement.",
+    "learningOutcomes": [
+      "Matrix factorization",
+      "Similarity metrics"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Collect and preprocess dataset.",
+      "Train/Fine-tune model.",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy model via API (FastAPI/Flask) or serverless function.",
+    "securityConsiderations": "Sanitize inputs to prevent prompt injection."
+  },
+  {
+    "id": "ai-4",
+    "title": "LLM-Based Chatbot",
+    "level": "Advanced",
+    "category": "AI & ML",
+    "techStack": [
+      "OpenAI/Llama",
+      "RAG"
+    ],
+    "description": "Context-aware chatbot using retrieval augmented generation.",
+    "problemStatement": "Provide accurate answers from specific docs.",
+    "learningOutcomes": [
+      "Vector DBs",
+      "Embeddings"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Collect and preprocess dataset.",
+      "Train/Fine-tune model.",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy model via API (FastAPI/Flask) or serverless function.",
+    "securityConsiderations": "Sanitize inputs to prevent prompt injection."
+  },
+  {
+    "id": "ai-5",
+    "title": "AI Agent System",
+    "level": "Advanced",
+    "category": "AI & ML",
+    "techStack": [
+      "AutoGPT",
+      "LangChain"
+    ],
+    "description": "Autonomous agents performing multi-step tasks.",
+    "problemStatement": "Automate complex workflows.",
+    "learningOutcomes": [
+      "Agent architectures",
+      "Tool use"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Collect and preprocess dataset.",
+      "Train/Fine-tune model.",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy model via API (FastAPI/Flask) or serverless function.",
+    "securityConsiderations": "Sanitize inputs to prevent prompt injection."
+  },
+  {
+    "id": "ai-6",
+    "title": "Sentiment Analysis Tool",
+    "level": "Advanced",
+    "category": "AI & ML",
+    "techStack": [
+      "NLTK",
+      "TextBlob"
+    ],
+    "description": "Determine emotional tone of text.",
+    "problemStatement": "Analyze customer feedback.",
+    "learningOutcomes": [
+      "NLP basics",
+      "Classification"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Collect and preprocess dataset.",
+      "Train/Fine-tune model.",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy model via API (FastAPI/Flask) or serverless function.",
+    "securityConsiderations": "Sanitize inputs to prevent prompt injection."
+  },
+  {
+    "id": "ai-7",
+    "title": "Image Classification System",
+    "level": "Advanced",
+    "category": "AI & ML",
+    "techStack": [
+      "CNN",
+      "PyTorch/TensorFlow"
+    ],
+    "description": "Categorize images by content.",
+    "problemStatement": "Automate visual inspection.",
+    "learningOutcomes": [
+      "Deep Learning",
+      "Computer Vision"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Collect and preprocess dataset.",
+      "Train/Fine-tune model.",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy model via API (FastAPI/Flask) or serverless function.",
+    "securityConsiderations": "Sanitize inputs to prevent prompt injection."
+  },
+  {
+    "id": "ai-8",
+    "title": "Predictive Maintenance System",
+    "level": "Advanced",
+    "category": "AI & ML",
+    "techStack": [
+      "Time Series Analysis"
+    ],
+    "description": "Predict equipment failure before it happens.",
+    "problemStatement": "Reduce downtime.",
+    "learningOutcomes": [
+      "Regression",
+      "IoT data"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Collect and preprocess dataset.",
+      "Train/Fine-tune model.",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy model via API (FastAPI/Flask) or serverless function.",
+    "securityConsiderations": "Sanitize inputs to prevent prompt injection."
+  },
+  {
+    "id": "ai-9",
+    "title": "NLP Text Summarizer",
+    "level": "Advanced",
+    "category": "AI & ML",
+    "techStack": [
+      "Transformers (HuggingFace)"
+    ],
+    "description": "Condense long articles into summaries.",
+    "problemStatement": "Information overload.",
+    "learningOutcomes": [
+      "Sequence-to-sequence models"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Collect and preprocess dataset.",
+      "Train/Fine-tune model.",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy model via API (FastAPI/Flask) or serverless function.",
+    "securityConsiderations": "Sanitize inputs to prevent prompt injection."
+  },
+  {
+    "id": "ai-10",
+    "title": "Speech-to-Text Application",
+    "level": "Advanced",
+    "category": "AI & ML",
+    "techStack": [
+      "Whisper",
+      "Python"
+    ],
+    "description": "Transcribe audio to text accurately.",
+    "problemStatement": "Accessibility and documentation.",
+    "learningOutcomes": [
+      "Audio processing",
+      "ASR models"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Collect and preprocess dataset.",
+      "Train/Fine-tune model.",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy model via API (FastAPI/Flask) or serverless function.",
+    "securityConsiderations": "Sanitize inputs to prevent prompt injection."
+  },
+  {
+    "id": "ai-11",
+    "title": "AI Red Teaming Simulation",
+    "level": "Advanced",
+    "category": "AI & ML",
+    "techStack": [
+      "Adversarial ML"
+    ],
+    "description": "Test AI models for vulnerabilities.",
+    "problemStatement": "Ensure AI safety.",
+    "learningOutcomes": [
+      "Security testing",
+      "Prompt injection"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Collect and preprocess dataset.",
+      "Train/Fine-tune model.",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy model via API (FastAPI/Flask) or serverless function.",
+    "securityConsiderations": "Sanitize inputs to prevent prompt injection."
+  },
+  {
+    "id": "ai-12",
+    "title": "ML Model Monitoring System",
+    "level": "Advanced",
+    "category": "AI & ML",
+    "techStack": [
+      "Drift Detection"
+    ],
+    "description": "Track model performance in production.",
+    "problemStatement": "Maintain model quality.",
+    "learningOutcomes": [
+      "Statistical monitoring",
+      "Alerting"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Collect and preprocess dataset.",
+      "Train/Fine-tune model.",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy model via API (FastAPI/Flask) or serverless function.",
+    "securityConsiderations": "Sanitize inputs to prevent prompt injection."
+  },
+  {
+    "id": "ops-1",
+    "title": "Dockerized Application",
+    "level": "Intermediate",
+    "category": "DevOps & Cloud",
+    "techStack": [
+      "Docker",
+      "Docker Compose"
+    ],
+    "description": "Containerize a multi-service web app.",
+    "problemStatement": "Ensure consistency across environments.",
+    "learningOutcomes": [
+      "Containerization",
+      "Networking"
+    ],
+    "implementationPlan": [
+      "Provision cloud infrastructure (AWS/Azure).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Set up CI/CD pipeline for automated deployment."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Docker containerization and Kubernetes orchestration.",
+    "securityConsiderations": "Use IAM roles, manage secrets securely (Vault/AWS Secrets Manager)."
+  },
+  {
+    "id": "ops-2",
+    "title": "Kubernetes Cluster Setup",
+    "level": "Advanced",
+    "category": "DevOps & Cloud",
+    "techStack": [
+      "K8s",
+      "Minikube"
+    ],
+    "description": "Deploy and manage container orchestrator.",
+    "problemStatement": "Manage scalable workloads.",
+    "learningOutcomes": [
+      "Orchestration",
+      "Manifests"
+    ],
+    "implementationPlan": [
+      "Provision cloud infrastructure (AWS/Azure).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Set up CI/CD pipeline for automated deployment."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Docker containerization and Kubernetes orchestration.",
+    "securityConsiderations": "Use IAM roles, manage secrets securely (Vault/AWS Secrets Manager)."
+  },
+  {
+    "id": "ops-3",
+    "title": "CI/CD Pipeline Implementation",
+    "level": "Advanced",
+    "category": "DevOps & Cloud",
+    "techStack": [
+      "GitHub Actions",
+      "GitLab CI"
+    ],
+    "description": "Automate testing and deployment workflows.",
+    "problemStatement": "Speed up release cycles.",
+    "learningOutcomes": [
+      "Automation",
+      "Testing integration"
+    ],
+    "implementationPlan": [
+      "Provision cloud infrastructure (AWS/Azure).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Set up CI/CD pipeline for automated deployment."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Docker containerization and Kubernetes orchestration.",
+    "securityConsiderations": "Use IAM roles, manage secrets securely (Vault/AWS Secrets Manager)."
+  },
+  {
+    "id": "ops-4",
+    "title": "Infrastructure as Code with Terraform",
+    "level": "Advanced",
+    "category": "DevOps & Cloud",
+    "techStack": [
+      "Terraform",
+      "AWS"
+    ],
+    "description": "Provision cloud resources via code.",
+    "problemStatement": "Reproducible infrastructure.",
+    "learningOutcomes": [
+      "IaC state",
+      "Cloud providers"
+    ],
+    "implementationPlan": [
+      "Provision cloud infrastructure (AWS/Azure).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Set up CI/CD pipeline for automated deployment."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Docker containerization and Kubernetes orchestration.",
+    "securityConsiderations": "Use IAM roles, manage secrets securely (Vault/AWS Secrets Manager)."
+  },
+  {
+    "id": "ops-5",
+    "title": "Monitoring & Logging System",
+    "level": "Advanced",
+    "category": "DevOps & Cloud",
+    "techStack": [
+      "Prometheus",
+      "Grafana",
+      "ELK"
+    ],
+    "description": "Visualize system metrics and logs.",
+    "problemStatement": "Observability.",
+    "learningOutcomes": [
+      "Metrics collection",
+      "Log aggregation"
+    ],
+    "implementationPlan": [
+      "Provision cloud infrastructure (AWS/Azure).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Set up CI/CD pipeline for automated deployment."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Docker containerization and Kubernetes orchestration.",
+    "securityConsiderations": "Use IAM roles, manage secrets securely (Vault/AWS Secrets Manager)."
+  },
+  {
+    "id": "ops-6",
+    "title": "Secure Cloud Deployment",
+    "level": "Advanced",
+    "category": "DevOps & Cloud",
+    "techStack": [
+      "AWS VPC",
+      "IAM"
+    ],
+    "description": "Deploy app with hardened security posture.",
+    "problemStatement": "Protect cloud assets.",
+    "learningOutcomes": [
+      "Network security",
+      "Access management"
+    ],
+    "implementationPlan": [
+      "Provision cloud infrastructure (AWS/Azure).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Set up CI/CD pipeline for automated deployment."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Docker containerization and Kubernetes orchestration.",
+    "securityConsiderations": "Use IAM roles, manage secrets securely (Vault/AWS Secrets Manager)."
+  },
+  {
+    "id": "ops-7",
+    "title": "Auto-Scaling Cloud Application",
+    "level": "Advanced",
+    "category": "DevOps & Cloud",
+    "techStack": [
+      "AWS ASG",
+      "Load Balancers"
+    ],
+    "description": "Handle variable traffic loads automatically.",
+    "problemStatement": "Cost-effective availability.",
+    "learningOutcomes": [
+      "Scaling policies",
+      "Health checks"
+    ],
+    "implementationPlan": [
+      "Provision cloud infrastructure (AWS/Azure).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Set up CI/CD pipeline for automated deployment."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Docker containerization and Kubernetes orchestration.",
+    "securityConsiderations": "Use IAM roles, manage secrets securely (Vault/AWS Secrets Manager)."
+  },
+  {
+    "id": "ops-8",
+    "title": "Backup & Disaster Recovery System",
+    "level": "Advanced",
+    "category": "DevOps & Cloud",
+    "techStack": [
+      "Scripts",
+      "Cloud Storage"
+    ],
+    "description": "Automated backup and restore procedure.",
+    "problemStatement": "Business continuity.",
+    "learningOutcomes": [
+      "RTO/RPO",
+      "Data integrity"
+    ],
+    "implementationPlan": [
+      "Provision cloud infrastructure (AWS/Azure).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Set up CI/CD pipeline for automated deployment."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Docker containerization and Kubernetes orchestration.",
+    "securityConsiderations": "Use IAM roles, manage secrets securely (Vault/AWS Secrets Manager)."
+  },
+  {
+    "id": "oss-1",
+    "title": "Open-Source Contribution Tracker",
+    "level": "Intermediate",
+    "category": "Open Source",
+    "techStack": [
+      "GitHub API"
+    ],
+    "description": "Visualize user contributions and PRs.",
+    "problemStatement": "Showcase community impact.",
+    "learningOutcomes": [
+      "API consumption",
+      "Gamification"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "oss-2",
+    "title": "Documentation Generator Tool",
+    "level": "Intermediate",
+    "category": "Open Source",
+    "techStack": [
+      "Markdown",
+      "Parser"
+    ],
+    "description": "Generate website from markdown docs.",
+    "problemStatement": "Simplify technical writing.",
+    "learningOutcomes": [
+      "Parsing",
+      "Static Site Generation"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "oss-3",
+    "title": "Code Quality Analyzer",
+    "level": "Intermediate",
+    "category": "Open Source",
+    "techStack": [
+      "AST Analysis"
+    ],
+    "description": "Static analysis tool for code style.",
+    "problemStatement": "Maintain code standards.",
+    "learningOutcomes": [
+      "Abstract Syntax Trees",
+      "Linting"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "oss-4",
+    "title": "Developer Productivity Tool",
+    "level": "Intermediate",
+    "category": "Open Source",
+    "techStack": [
+      "CLI",
+      "Node.js"
+    ],
+    "description": "Command line tool to automate dev tasks.",
+    "problemStatement": "Save developer time.",
+    "learningOutcomes": [
+      "CLI UX",
+      "Automation"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "oss-5",
+    "title": "API Testing Framework",
+    "level": "Advanced",
+    "category": "Open Source",
+    "techStack": [
+      "HTTP Client",
+      "Assertions"
+    ],
+    "description": "Library to simplify API integration tests.",
+    "problemStatement": "Improve test reliability.",
+    "learningOutcomes": [
+      "Testing libraries",
+      "HTTP protocols"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "oss-6",
+    "title": "Design System Library",
+    "level": "Advanced",
+    "category": "Open Source",
+    "techStack": [
+      "CSS",
+      "Components"
+    ],
+    "description": "Reusable UI component library.",
+    "problemStatement": "Consistent UI across apps.",
+    "learningOutcomes": [
+      "Component patterns",
+      "Theming"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "oss-7",
+    "title": "CLI Tool",
+    "level": "Intermediate",
+    "category": "Open Source",
+    "techStack": [
+      "Node.js"
+    ],
+    "description": "Useful command line utility.",
+    "problemStatement": "Terminal-based workflow.",
+    "learningOutcomes": [
+      "Process arguments",
+      "Output formatting"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "oss-8",
+    "title": "GitHub Analytics Dashboard",
+    "level": "Intermediate",
+    "category": "Open Source",
+    "techStack": [
+      "React",
+      "Charts"
+    ],
+    "description": "Insights into repo health and activity.",
+    "problemStatement": "Monitor project metrics.",
+    "learningOutcomes": [
+      "Data aggregation",
+      "Visualization"
+    ],
+    "implementationPlan": [
+      "Set up the project environment (Git repo, dependencies).",
+      "Design the UI/UX layout and component hierarchy.",
+      "Implement the core functionality (frontend logic/backend API).",
+      "Add styling and responsive design adjustments.",
+      "Test across different devices and browsers.",
+      "Deploy the application to a hosting provider."
+    ],
+    "guide": [
+      "Use semantic HTML5 tags for better accessibility.",
+      "Keep your CSS organized (consider BEM naming or CSS Modules).",
+      "Write clean, commented code for easier maintenance.",
+      "Use version control (Git) frequently."
+    ],
+    "commonPitfalls": [
+      "Overcomplicating the design too early.",
+      "Not testing responsiveness enough.",
+      "Ignoring accessibility guidelines.",
+      "Hardcoding values instead of using variables/constants."
+    ],
+    "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
+    "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  }
+]

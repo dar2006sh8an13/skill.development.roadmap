@@ -1,0 +1,560 @@
+{
+  "id": "aspnet-core",
+  "name": "ASP.NET Core",
+  "type": "skill",
+  "overview": "ASP.NET Core is a crucial skill for modern development. Cross-platform, high-performance framework.",
+  "prerequisites": [
+    "Basic Programming Knowledge",
+    "Logical Thinking"
+  ],
+  "concepts": [
+    "Core Syntax & Semantics",
+    "Advanced Features",
+    "Ecosystem & Tooling",
+    "Best Practices"
+  ],
+  "learningOrder": [
+    "Basics",
+    "Intermediate",
+    "Advanced"
+  ],
+  "tools": [
+    "Official Documentation",
+    "Related Frameworks"
+  ],
+  "roadmap": {
+    "beginner": [
+      "Installation & Setup",
+      "Hello World",
+      "Basic Syntax",
+      "Variables & Data Types"
+    ],
+    "intermediate": [
+      "Control Structures",
+      "Functions/Methods",
+      "Error Handling",
+      "Modules/Packages"
+    ],
+    "advanced": [
+      "Memory Management",
+      "Concurrency/Async",
+      "Performance Optimization",
+      "Testing"
+    ]
+  },
+  "projects": [
+    {
+      "id": "proj-skill-asp.net-core-beginner-0",
+      "title": "File Server",
+      "level": "Beginner",
+      "problemStatement": "File handling.",
+      "description": "Serve static files.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "FS Module"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-asp.net-core-beginner-1",
+      "title": "CLI Tool",
+      "level": "Beginner",
+      "problemStatement": "Automation.",
+      "description": "Command line automator.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Argv parsing"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-asp.net-core-beginner-2",
+      "title": "Simple API",
+      "level": "Beginner",
+      "problemStatement": "Data access.",
+      "description": "Return JSON data.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "HTTP Server"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-asp.net-core-beginner-3",
+      "title": "Log Parser",
+      "level": "Beginner",
+      "problemStatement": "Data processing.",
+      "description": "Parse text logs.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Regex"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-asp.net-core-intermediate-0",
+      "title": "Task API",
+      "level": "Intermediate",
+      "problemStatement": "CRUD.",
+      "description": "Manage tasks via API.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Express",
+        "REST"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-asp.net-core-intermediate-1",
+      "title": "Auth Service",
+      "level": "Intermediate",
+      "problemStatement": "Security.",
+      "description": "User registration/login.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "JWT",
+        "Bcrypt"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-asp.net-core-intermediate-2",
+      "title": "Blog Backend",
+      "level": "Intermediate",
+      "problemStatement": "Content management.",
+      "description": "Posts and comments.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Database"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-asp.net-core-intermediate-3",
+      "title": "Image Resizer",
+      "level": "Intermediate",
+      "problemStatement": "Media processing.",
+      "description": "Upload and resize images.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Sharp"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-asp.net-core-advanced-0",
+      "title": "Real-time Chat Server",
+      "level": "Advanced",
+      "problemStatement": "Concurrency.",
+      "description": "Handle multiple connections.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "WebSockets"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-asp.net-core-advanced-1",
+      "title": "Microservice",
+      "level": "Advanced",
+      "problemStatement": "Scalability.",
+      "description": "Single responsibility service.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Docker"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-asp.net-core-advanced-2",
+      "title": "Caching Proxy",
+      "level": "Advanced",
+      "problemStatement": "Performance.",
+      "description": "Cache API responses.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Redis"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-asp.net-core-industry-0",
+      "title": "Payment Gateway Integration",
+      "level": "Capstone",
+      "problemStatement": "Transactions.",
+      "description": "Handle payments securely.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Stripe API"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-asp.net-core-industry-1",
+      "title": "Video Streaming Server",
+      "level": "Capstone",
+      "problemStatement": "Media delivery.",
+      "description": "Stream video chunks.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Streams"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-asp.net-core-portfolio-0",
+      "title": "Full Stack App Backend",
+      "level": "Project",
+      "problemStatement": "System design.",
+      "description": "Specific backend for an app.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Best Practices"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    }
+  ],
+  "bestPractices": [
+    "Read the official docs",
+    "Write clean, readable code",
+    "Test your code",
+    "Follow community conventions"
+  ],
+  "commonMistakes": [
+    "Overcomplicating simple problems",
+    "Ignoring error handling",
+    "Not updating dependencies"
+  ],
+  "resources": [
+    {
+      "name": "Official Documentation",
+      "url": "#"
+    },
+    {
+      "name": "Community Tutorials",
+      "url": "#"
+    }
+  ]
+}

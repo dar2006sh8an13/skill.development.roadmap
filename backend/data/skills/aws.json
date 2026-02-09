@@ -1,0 +1,558 @@
+{
+  "id": "aws",
+  "name": "AWS",
+  "type": "skill",
+  "overview": "AWS is a crucial skill for modern development. Amazon Web Services.",
+  "prerequisites": [
+    "Basic Programming Knowledge",
+    "Logical Thinking"
+  ],
+  "concepts": [
+    "Core Syntax & Semantics",
+    "Advanced Features",
+    "Ecosystem & Tooling",
+    "Best Practices"
+  ],
+  "learningOrder": [
+    "Basics",
+    "Intermediate",
+    "Advanced"
+  ],
+  "tools": [
+    "Official Documentation",
+    "Related Frameworks"
+  ],
+  "roadmap": {
+    "beginner": [
+      "Installation & Setup",
+      "Hello World",
+      "Basic Syntax",
+      "Variables & Data Types"
+    ],
+    "intermediate": [
+      "Control Structures",
+      "Functions/Methods",
+      "Error Handling",
+      "Modules/Packages"
+    ],
+    "advanced": [
+      "Memory Management",
+      "Concurrency/Async",
+      "Performance Optimization",
+      "Testing"
+    ]
+  },
+  "projects": [
+    {
+      "id": "proj-skill-aws-beginner-0",
+      "title": "Local Server",
+      "level": "Beginner",
+      "problemStatement": "Hosting.",
+      "description": "Run a web server.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Nginx/Apache"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-aws-beginner-1",
+      "title": "Shell Scripting",
+      "level": "Beginner",
+      "problemStatement": "Automation.",
+      "description": "Automate daily tasks.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Bash"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-aws-beginner-2",
+      "title": "Git Workflow",
+      "level": "Beginner",
+      "problemStatement": "Version control.",
+      "description": "Manage formatting.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Git Hooks"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-aws-beginner-3",
+      "title": "Containerize App",
+      "level": "Beginner",
+      "problemStatement": "Isolation.",
+      "description": "Create Dockerfile.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Docker"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-aws-intermediate-0",
+      "title": "CI Pipeline",
+      "level": "Intermediate",
+      "problemStatement": "Integration.",
+      "description": "Run tests on commit.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "GitHub Actions"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-aws-intermediate-1",
+      "title": "Cloud Deploy",
+      "level": "Intermediate",
+      "problemStatement": "Public access.",
+      "description": "Deploy to AWS/Heroku.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Cloud"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-aws-intermediate-2",
+      "title": "Monitoring Layout",
+      "level": "Intermediate",
+      "problemStatement": "Visibility.",
+      "description": "Dashboard for metrics.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Grafana/Prometheus"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-aws-intermediate-3",
+      "title": "Load Balancer",
+      "level": "Intermediate",
+      "problemStatement": "Traffic.",
+      "description": "Distribute requests.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Nginx"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-aws-advanced-0",
+      "title": "K8s Cluster",
+      "level": "Advanced",
+      "problemStatement": "Orchestration.",
+      "description": "Manage containers.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Kubernetes"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-aws-advanced-1",
+      "title": "Infrastructure Code",
+      "level": "Advanced",
+      "problemStatement": "Provisioning.",
+      "description": "Terraform setup.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Terraform"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-aws-advanced-2",
+      "title": "Log Aggregation",
+      "level": "Advanced",
+      "problemStatement": "Debugging.",
+      "description": "Centralized logs.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "ELK"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-aws-industry-0",
+      "title": "Zero Downtime Deploy",
+      "level": "Capstone",
+      "problemStatement": "Availability.",
+      "description": "Blue/Green deployment.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Strategy"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-aws-industry-1",
+      "title": "Security Audit",
+      "level": "Capstone",
+      "problemStatement": "Hardening.",
+      "description": "Automated security scan.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "DevSecOps"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-aws-portfolio-0",
+      "title": "Complete DevOps Platform",
+      "level": "Project",
+      "problemStatement": "Platform Eng.",
+      "description": "Internal developer platform.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Integration"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    }
+  ],
+  "bestPractices": [
+    "Read the official docs",
+    "Write clean, readable code",
+    "Test your code",
+    "Follow community conventions"
+  ],
+  "commonMistakes": [
+    "Overcomplicating simple problems",
+    "Ignoring error handling",
+    "Not updating dependencies"
+  ],
+  "resources": [
+    {
+      "name": "Official Documentation",
+      "url": "#"
+    },
+    {
+      "name": "Community Tutorials",
+      "url": "#"
+    }
+  ]
+}

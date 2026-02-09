@@ -1,0 +1,585 @@
+{
+  "id": "javascript",
+  "name": "JavaScript",
+  "type": "skill",
+  "overview": "JavaScript is the programming language of the Web. It is lightweight, interpreted, JIT-compiled with first-class functions.",
+  "prerequisites": [
+    "HTML",
+    "CSS",
+    "Basic Logic"
+  ],
+  "concepts": [
+    "Variables (let, const, var)",
+    "Data Types (Primitives, Objects)",
+    "Operators",
+    "Control Structures (if/else, switch, loops)",
+    "Functions (Declarations, Expressions, Arrows)",
+    "DOM Manipulation",
+    "Events",
+    "Asynchronous JavaScript (Callbacks, Promises, Async/Await)",
+    "ES6+ Features (Destructuring, Spread, Modules)",
+    "Classes & Prototypes",
+    "Error Handling"
+  ],
+  "learningOrder": [
+    "Basics",
+    "DOM",
+    "Async",
+    "Modern JS (ES6+)",
+    "Tooling"
+  ],
+  "tools": [
+    "Chrome DevTools",
+    "Node.js (for runtime)",
+    "VS Code",
+    "ESLint",
+    "Prettier"
+  ],
+  "roadmap": {
+    "beginner": [
+      "Understand logic and flow control",
+      "Manipulate the DOM",
+      "Event Handling"
+    ],
+    "intermediate": [
+      "Fetch API & JSON",
+      "Object-Oriented Programming (OOP)",
+      "Closures and Scope"
+    ],
+    "advanced": [
+      "Performance Optimization",
+      "Memory Management",
+      "Design Patterns",
+      "Functional Programming"
+    ]
+  },
+  "projects": [
+    {
+      "id": "proj-skill-javascript-beginner-0",
+      "title": "Interactive Form",
+      "level": "Beginner",
+      "problemStatement": "User input handling.",
+      "description": "Multi-step form with validation.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "HTML",
+        "CSS",
+        "JS"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-javascript-beginner-1",
+      "title": "Responsive Landing Page",
+      "level": "Beginner",
+      "problemStatement": "Mobile compatibility.",
+      "description": "Product page adapting to screens.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "CSS Flexbox",
+        "Media Queries"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-javascript-beginner-2",
+      "title": "Image Gallery",
+      "level": "Beginner",
+      "problemStatement": "Media display.",
+      "description": "Grid layout with lightbox.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "CSS Grid",
+        "JS Events"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-javascript-beginner-3",
+      "title": "To-Do List",
+      "level": "Beginner",
+      "problemStatement": "State management.",
+      "description": "CRUD operations on list.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Local Storage",
+        "DOM"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-javascript-intermediate-0",
+      "title": "Weather Dashboard",
+      "level": "Intermediate",
+      "problemStatement": "API integration.",
+      "description": "Live weather data visualization.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Fetch API",
+        "Chart.js"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-javascript-intermediate-1",
+      "title": "Movie Search App",
+      "level": "Intermediate",
+      "problemStatement": "Search functionality.",
+      "description": "Query and filter movies.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "External API",
+        "Debouncing"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-javascript-intermediate-2",
+      "title": "Quiz Application",
+      "level": "Intermediate",
+      "problemStatement": "Interactive logic.",
+      "description": "Timed quiz with scoring.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "State Management"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-javascript-intermediate-3",
+      "title": "Memory Game",
+      "level": "Intermediate",
+      "problemStatement": "Game logic.",
+      "description": "Card matching game.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "DOM Manipulation"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-javascript-advanced-0",
+      "title": "E-commerce Frontend",
+      "level": "Advanced",
+      "problemStatement": "Complex state.",
+      "description": "Cart, checkout, products.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Redux/Context",
+        "Router"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-javascript-advanced-1",
+      "title": "Social Media Feed",
+      "level": "Advanced",
+      "problemStatement": "Infinite scroll.",
+      "description": "Dynamic content loading.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Observer API"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-javascript-advanced-2",
+      "title": "Real-time Chat UI",
+      "level": "Advanced",
+      "problemStatement": "Live updates.",
+      "description": "Chat interface with sockets.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "WebSockets"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-javascript-industry-0",
+      "title": "Admin Dashboard",
+      "level": "Capstone",
+      "problemStatement": "Data management.",
+      "description": "Analytics and user management.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Data Viz",
+        "Auth"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-javascript-industry-1",
+      "title": "Design System",
+      "level": "Capstone",
+      "problemStatement": "Consistency.",
+      "description": "Reusable component library.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Storybook"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-javascript-portfolio-0",
+      "title": "Personal Brand Site",
+      "level": "Project",
+      "problemStatement": "Self-promotion.",
+      "description": "Showcase work and skills.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Animation",
+        "SEO"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    }
+  ],
+  "bestPractices": [
+    "Use `const` and `let` instead of `var`",
+    "Use strict equality `===`",
+    "Keep functions pure when possible",
+    "Use meaningful variable names",
+    "Comment your code (where necessary)"
+  ],
+  "commonMistakes": [
+    "Polluting the global scope",
+    "Callback hell (use Promises/Async-Await instead)",
+    "Misunderstanding `this` keyword",
+    "Mutating state directly in frameworks"
+  ],
+  "resources": [
+    {
+      "name": "MDN JavaScript Guide",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+    },
+    {
+      "name": "JavaScript.info",
+      "url": "https://javascript.info/"
+    },
+    {
+      "name": "Eloquent JavaScript",
+      "url": "https://eloquentjavascript.net/"
+    }
+  ]
+}

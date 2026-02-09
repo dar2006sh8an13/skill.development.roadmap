@@ -1,0 +1,558 @@
+{
+  "id": "sql",
+  "name": "SQL",
+  "type": "skill",
+  "overview": "SQL is a crucial skill for modern development. Standard language for databases.",
+  "prerequisites": [
+    "Basic Programming Knowledge",
+    "Logical Thinking"
+  ],
+  "concepts": [
+    "Core Syntax & Semantics",
+    "Advanced Features",
+    "Ecosystem & Tooling",
+    "Best Practices"
+  ],
+  "learningOrder": [
+    "Basics",
+    "Intermediate",
+    "Advanced"
+  ],
+  "tools": [
+    "Official Documentation",
+    "Related Frameworks"
+  ],
+  "roadmap": {
+    "beginner": [
+      "Installation & Setup",
+      "Hello World",
+      "Basic Syntax",
+      "Variables & Data Types"
+    ],
+    "intermediate": [
+      "Control Structures",
+      "Functions/Methods",
+      "Error Handling",
+      "Modules/Packages"
+    ],
+    "advanced": [
+      "Memory Management",
+      "Concurrency/Async",
+      "Performance Optimization",
+      "Testing"
+    ]
+  },
+  "projects": [
+    {
+      "id": "proj-skill-sql-beginner-0",
+      "title": "Address Book",
+      "level": "Beginner",
+      "problemStatement": "Data storage.",
+      "description": "Store contacts.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "SQL/NoSQL"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-sql-beginner-1",
+      "title": "Inventory System",
+      "level": "Beginner",
+      "problemStatement": "Item tracking.",
+      "description": "Track stock levels.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "CRUD"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-sql-beginner-2",
+      "title": "Library Catalog",
+      "level": "Beginner",
+      "problemStatement": "Relationships.",
+      "description": "Books and authors.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Foreign Keys"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-sql-beginner-3",
+      "title": "Student Database",
+      "level": "Beginner",
+      "problemStatement": "Records.",
+      "description": "Manage student info.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Schema Design"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-sql-intermediate-0",
+      "title": "Forum Schema",
+      "level": "Intermediate",
+      "problemStatement": "Complex relations.",
+      "description": "Threads, posts, users.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Normalization"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-sql-intermediate-1",
+      "title": "E-commerce DB",
+      "level": "Intermediate",
+      "problemStatement": "Transactions.",
+      "description": "Orders and payments.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "ACID"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-sql-intermediate-2",
+      "title": "Analytics Store",
+      "level": "Intermediate",
+      "problemStatement": "Time-series.",
+      "description": "Log events over time.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Indexing"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-sql-intermediate-3",
+      "title": "Migration Script",
+      "level": "Intermediate",
+      "problemStatement": "Versioning.",
+      "description": "Update schema safely.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Scripts"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-sql-advanced-0",
+      "title": "Search Engine",
+      "level": "Advanced",
+      "problemStatement": "Full-text search.",
+      "description": "Index and search text.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Text Index"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-sql-advanced-1",
+      "title": "Replication Setup",
+      "level": "Advanced",
+      "problemStatement": "Availability.",
+      "description": "Master-slave setup.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Config"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-sql-advanced-2",
+      "title": "Sharded Cluster",
+      "level": "Advanced",
+      "problemStatement": "Scalability.",
+      "description": "Distribute data.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Sharding"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-sql-industry-0",
+      "title": "High-Traffic Ledger",
+      "level": "Capstone",
+      "problemStatement": "Consistency.",
+      "description": "Financial record keeping.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "Optimization"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-sql-industry-1",
+      "title": "Geo-spatial App",
+      "level": "Capstone",
+      "problemStatement": "Location.",
+      "description": "Store/query locations.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "GeoJSON"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    },
+    {
+      "id": "proj-skill-sql-portfolio-0",
+      "title": "DB Performance Analyzer",
+      "level": "Project",
+      "problemStatement": "Optimization.",
+      "description": "Analyze query speeds.",
+      "keyConcepts": [
+        "Core Concept A",
+        "Core Concept B",
+        "Best Practice C"
+      ],
+      "techStack": [
+        "EXPLAIN"
+      ],
+      "modules": [
+        "Core Logic",
+        "User Interface",
+        "Data Management",
+        "Tests"
+      ],
+      "implementationPlan": [
+        "Phase 1: Setup and Configuration.",
+        "Phase 2: Core Feature Implementation.",
+        "Phase 3: Testing and Refinement.",
+        "Phase 4: Documentation and Deployment."
+      ],
+      "deploymentStrategy": "Deploy to platform (e.g., Vercel, Heroku, AWS) using CI/CD.",
+      "securityConsiderations": "Input validation, sanitization, and secure dependency management.",
+      "performanceConsiderations": "Code optimization, caching strategies, and asset minification.",
+      "commonPitfalls": [
+        "Over-engineering",
+        "Ignoring edge cases"
+      ],
+      "repoLink": "#"
+    }
+  ],
+  "bestPractices": [
+    "Read the official docs",
+    "Write clean, readable code",
+    "Test your code",
+    "Follow community conventions"
+  ],
+  "commonMistakes": [
+    "Overcomplicating simple problems",
+    "Ignoring error handling",
+    "Not updating dependencies"
+  ],
+  "resources": [
+    {
+      "name": "Official Documentation",
+      "url": "#"
+    },
+    {
+      "name": "Community Tutorials",
+      "url": "#"
+    }
+  ]
+}

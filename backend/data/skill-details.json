@@ -1,0 +1,684 @@
+{
+    "javascript": {
+        "name": "JavaScript",
+        "overview": "JavaScript is a versatile, high-level programming language that powers the interactive web. It is essential for frontend development and increasingly popular for backend (Node.js) and mobile apps.",
+        "prerequisites": [
+            "Basic HTML (Structure)",
+            "Basic CSS (Styling)"
+        ],
+        "concepts": [
+            "Variables & Data Types (let, const, var)",
+            "Functions & Scope (Arrow functions, Closures)",
+            "DOM Manipulation (Selecting & changing elements)",
+            "Events (Click, Submit, Input)",
+            "ES6+ Features (Destructuring, Spread, Template Literals)",
+            "Asynchronous JS (Promises, Async/Await)"
+        ],
+        "tools": [
+            "VS Code",
+            "Chrome DevTools",
+            "Node.js (for running JS outside browser)",
+            "npm/yarn"
+        ],
+        "roadmap": {
+            "beginner": [
+                "Syntax & Basics",
+                "DOM Manipulation",
+                "Basic Logic (Loops/Conditionals)"
+            ],
+            "intermediate": [
+                "Async JavaScript",
+                "API Fetching",
+                "ES6 Modules",
+                "Object Oriented Programming"
+            ],
+            "advanced": [
+                "Functional Programming",
+                "Design Patterns",
+                "Performance Optimization",
+                "Testing (Jest)"
+            ]
+        },
+        "projects": {
+            "mini": [
+                "To-Do List",
+                "Calculator",
+                "Digital Clock",
+                "Weather App"
+            ],
+            "realworld": [
+                "E-commerce Cart",
+                "Chat Application",
+                "Blog Platform"
+            ]
+        },
+        "bestPractices": [
+            "Use `const` and `let` instead of `var`",
+            "Always use `===` for equality checks",
+            "Keep functions small and pure when possible",
+            "Comment your code meaningfuly"
+        ],
+        "mistakes": [
+            "Modifying the DOM too frequently (performance cost)",
+            "Not handling asynchronous errors (try/catch)",
+            "Polluting the global scope"
+        ],
+        "resources": [
+            {
+                "name": "MDN Web Docs",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            },
+            {
+                "name": "JavaScript.info",
+                "url": "https://javascript.info/"
+            },
+            {
+                "name": "FreeCodeCamp",
+                "url": "https://www.freecodecamp.org/"
+            }
+        ]
+    },
+    "html": {
+        "name": "HTML",
+        "overview": "HyperText Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.",
+        "prerequisites": [],
+        "concepts": [
+            "Elements & Tags",
+            "Attributes",
+            "Semantic Structure",
+            "Forms",
+            "Multimedia"
+        ],
+        "tools": [
+            "VS Code",
+            "Browser DevTools"
+        ],
+        "roadmap": {
+            "beginner": [
+                "Basic Tags",
+                "Links & Images",
+                "Lists"
+            ],
+            "intermediate": [
+                "Forms & Input Types",
+                "Tables",
+                "Semantic HTML"
+            ],
+            "advanced": [
+                "Accessibility (ARIA)",
+                "SEO Best Practices",
+                "Performance Optimization"
+            ]
+        },
+        "projects": {
+            "mini": [
+                "Personal Profile",
+                "Recipe Page",
+                "Tribute Page"
+            ],
+            "realworld": [
+                "Landing Page",
+                "Documentation Site"
+            ]
+        },
+        "bestPractices": [
+            "Use semantic tags",
+            "Always properly close tags",
+            "Use alt attributes for images"
+        ],
+        "mistakes": [
+            "Using `div` for everything",
+            "Forgetting `<!DOCTYPE html>`",
+            "Inline styles"
+        ],
+        "resources": [
+            {
+                "name": "MDN HTML",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+        ]
+    },
+    "css": {
+        "name": "CSS",
+        "overview": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in HTML.",
+        "prerequisites": [
+            "HTML"
+        ],
+        "concepts": [
+            "Selectors",
+            "Box Model",
+            "Flexbox",
+            "Grid",
+            "Responsive Design",
+            "Animations"
+        ],
+        "tools": [
+            "VS Code",
+            "Browser DevTools",
+            "PostCSS",
+            "Sass"
+        ],
+        "roadmap": {
+            "beginner": [
+                "Colors & Fonts",
+                "Box Model",
+                "Basic Selectors"
+            ],
+            "intermediate": [
+                "Flexbox",
+                "Grid",
+                "Media Queries"
+            ],
+            "advanced": [
+                "Animations",
+                "Transitions",
+                "Architecture (BEM)"
+            ]
+        },
+        "projects": {
+            "mini": [
+                "Pricing Card",
+                "Navbar",
+                "Footer"
+            ],
+            "realworld": [
+                "Responsive Portfolio",
+                "Dashboard Layout"
+            ]
+        },
+        "bestPractices": [
+            "Use a reset/normalize CSS",
+            "Mobile-first approach",
+            "Avoid `!important`"
+        ],
+        "mistakes": [
+            "Overusing absolute positioning",
+            "Not using shorthand properties",
+            "Deeply nested selectors"
+        ],
+        "resources": [
+            {
+                "name": "MDN CSS",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            },
+            {
+                "name": "CSS-Tricks",
+                "url": "https://css-tricks.com/"
+            }
+        ]
+    },
+    "nodejs": {
+        "name": "Node.js",
+        "overview": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows you to run JavaScript on the server side.",
+        "prerequisites": [
+            "JavaScript"
+        ],
+        "concepts": [
+            "Event Loop",
+            "Modules (CommonJS & ES)",
+            "File System",
+            "Streams & Buffers",
+            "HTTP Server"
+        ],
+        "tools": [
+            "npm",
+            "Postman",
+            "Express.js",
+            "Nodemon"
+        ],
+        "roadmap": {
+            "beginner": [
+                "Global Objects",
+                "Modules",
+                "File I/O"
+            ],
+            "intermediate": [
+                "Express Framework",
+                "REST APIs",
+                "Middleware"
+            ],
+            "advanced": [
+                "Microservices",
+                "Performance Scaling",
+                "Authentication (JWT)"
+            ]
+        },
+        "projects": {
+            "mini": [
+                "File Manager",
+                "Web Scraper",
+                "Discord Bot"
+            ],
+            "realworld": [
+                "Task Management API",
+                "Real-time Chat Server"
+            ]
+        },
+        "bestPractices": [
+            "Handle errors asynchronously",
+            "Use environment variables",
+            "Avoid blocking the event loop"
+        ],
+        "mistakes": [
+            "Callback hell (use Promises!)",
+            "Committing secrets to Git",
+            "Not closing database connections"
+        ],
+        "resources": [
+            {
+                "name": "Node.js Docs",
+                "url": "https://nodejs.org/en/docs/"
+            },
+            {
+                "name": "NodeSchool",
+                "url": "https://nodeschool.io/"
+            }
+        ]
+    },
+    "react": {
+        "name": "React",
+        "overview": "A JavaScript library for building user interfaces, maintained by Meta.",
+        "prerequisites": [
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "concepts": [
+            "Components",
+            "JSX",
+            "Props & State",
+            "Hooks",
+            "Virtual DOM"
+        ],
+        "tools": [
+            "Create React App",
+            "Vite",
+            "Redux",
+            "React Router"
+        ],
+        "roadmap": {
+            "beginner": [
+                "JSX",
+                "Components",
+                "Props"
+            ],
+            "intermediate": [
+                "Hooks (useState, useEffect)",
+                "Context API",
+                "React Router"
+            ],
+            "advanced": [
+                "Custom Hooks",
+                "Performance Optimization",
+                "Server Components"
+            ]
+        },
+        "projects": {
+            "mini": [
+                "Counter",
+                "Todo App",
+                "Expense Tracker"
+            ],
+            "realworld": [
+                "E-commerce Frontend",
+                "Social Dashboard",
+                "Movie Search App"
+            ]
+        },
+        "bestPractices": [
+            "Keep components small",
+            "Use functional components",
+            "Dependency arrays in useEffect"
+        ],
+        "mistakes": [
+            "Mutating state directly",
+            "Prop drilling (use Context)",
+            "Not using keys in lists"
+        ],
+        "resources": [
+            {
+                "name": "React Docs",
+                "url": "https://react.dev/"
+            },
+            {
+                "name": "Scrimba React Course",
+                "url": "https://scrimba.com/learn/learnreact"
+            }
+        ]
+    },
+    "sql-nosql": {
+        "name": "SQL & NoSQL",
+        "overview": "Databases are essential for storing application data. SQL (Relational) and NoSQL (Non-Relational) are the two main types.",
+        "prerequisites": [
+            "Basic Logic"
+        ],
+        "concepts": [
+            "Tables vs Collections",
+            "Queries",
+            "Relationships",
+            "Normalization",
+            "ACID Properties"
+        ],
+        "tools": [
+            "PostgreSQL",
+            "MongoDB",
+            "MySQL",
+            "Redis"
+        ],
+        "roadmap": {
+            "beginner": [
+                "CRUD Operations",
+                "Basic Queries",
+                "Data Types"
+            ],
+            "intermediate": [
+                "Joins (SQL)",
+                "Aggregation (NoSQL)",
+                "Indexing"
+            ],
+            "advanced": [
+                "Replication",
+                "Sharding",
+                "Optimization"
+            ]
+        },
+        "projects": {
+            "mini": [
+                "Address Book",
+                "Inventory System"
+            ],
+            "realworld": [
+                "Blog Database Design",
+                "E-commerce Schema"
+            ]
+        },
+        "bestPractices": [
+            "Sanitize inputs (prevent SQL injection)",
+            "Use transactions",
+            "Index frequently queried fields"
+        ],
+        "mistakes": [
+            "Storing passwords in plain text",
+            "N+1 query problem",
+            "Over-normalization"
+        ],
+        "resources": [
+            {
+                "name": "SQLZoo",
+                "url": "https://sqlzoo.net/"
+            },
+            {
+                "name": "MongoDB University",
+                "url": "https://university.mongodb.com/"
+            }
+        ]
+    },
+    "git": {
+        "name": "Git & GitHub",
+        "overview": "Git is a distributed version control system. GitHub is a platform for hosting and collaborating on Git repositories.",
+        "prerequisites": [
+            "Command Line Basics"
+        ],
+        "concepts": [
+            "Repositories",
+            "Commits",
+            "Branches",
+            "Merges",
+            "Pull Requests"
+        ],
+        "tools": [
+            "Git CLI",
+            "GitHub Desktop",
+            "VS Code Git"
+        ],
+        "roadmap": {
+            "beginner": [
+                "init, add, commit",
+                "push, pull",
+                "status, log"
+            ],
+            "intermediate": [
+                "Branching",
+                "Merge Conflicts",
+                ".gitignore"
+            ],
+            "advanced": [
+                "Rebase",
+                "Cherry-pick",
+                "Submodules",
+                "Hooks"
+            ]
+        },
+        "projects": {
+            "mini": [
+                "Personal Repo",
+                "Team Collaboration Simulation"
+            ],
+            "realworld": [
+                "Open Source Contribution"
+            ]
+        },
+        "bestPractices": [
+            "Commit often",
+            "Write meaningful messages",
+            "Never work directly on main"
+        ],
+        "mistakes": [
+            "Committing large files",
+            "Force pushing to shared branches",
+            "Ignoring merge conflicts"
+        ],
+        "resources": [
+            {
+                "name": "Pro Git Book",
+                "url": "https://git-scm.com/book/en/v2"
+            },
+            {
+                "name": "GitHub Skills",
+                "url": "https://skills.github.com/"
+            }
+        ]
+    },
+    "testing": {
+        "name": "Testing",
+        "overview": "Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do.",
+        "prerequisites": [
+            "JavaScript",
+            "Application Logic"
+        ],
+        "concepts": [
+            "Unit Testing",
+            "Integration Testing",
+            "E2E Testing",
+            "TDD",
+            "Mocking"
+        ],
+        "tools": [
+            "Jest",
+            "Mocha",
+            "Cypress",
+            "Selenium"
+        ],
+        "roadmap": {
+            "beginner": [
+                "Manual Testing",
+                "Basic Unit Tests"
+            ],
+            "intermediate": [
+                "Integration Tests",
+                "Test Coverage",
+                "Mocking APIs"
+            ],
+            "advanced": [
+                "TDD",
+                "CI Integration",
+                "Performance Testing"
+            ]
+        },
+        "projects": {
+            "mini": [
+                "Test a Calculator Function",
+                "Form Validation Tests"
+            ],
+            "realworld": [
+                "Full API Test Suite",
+                "E2E Shopping Flow"
+            ]
+        },
+        "bestPractices": [
+            "Test behavior, not implementation",
+            "Keep tests independent",
+            "Write readable tests"
+        ],
+        "mistakes": [
+            "Testing implementation details",
+            "Ignoring edge cases",
+            "Flaky tests"
+        ],
+        "resources": [
+            {
+                "name": "Jest Docs",
+                "url": "https://jestjs.io/"
+            },
+            {
+                "name": "Testing Library",
+                "url": "https://testing-library.com/"
+            }
+        ]
+    },
+    "deployment": {
+        "name": "Deployment & DevOps",
+        "overview": "The process of making your application available to users over the internet.",
+        "prerequisites": [
+            "Git",
+            "Basic Functioning App"
+        ],
+        "concepts": [
+            "DNS",
+            "Hosting",
+            "CI/CD",
+            "Containers",
+            "Cloud Services"
+        ],
+        "tools": [
+            "Netlify",
+            "Vercel",
+            "Docker",
+            "AWS",
+            "GitHub Actions"
+        ],
+        "roadmap": {
+            "beginner": [
+                "Static Deployment (Netlify)",
+                "GitHub Pages"
+            ],
+            "intermediate": [
+                "Cloud Platforms (Heroku/Render)",
+                "Domain Setup",
+                "SSL"
+            ],
+            "advanced": [
+                "Docker",
+                "Kubernetes",
+                "CI/CD Pipelines"
+            ]
+        },
+        "projects": {
+            "mini": [
+                "Deploy Personal Site",
+                "Setup Custom Domain"
+            ],
+            "realworld": [
+                "Full Stack App Deployment",
+                "Automated CI/CD Pipeline"
+            ]
+        },
+        "bestPractices": [
+            "Automate everything",
+            "Use staging environments",
+            "Monitor application health"
+        ],
+        "mistakes": [
+            "Deploying secrets",
+            "Manual updates on server",
+            "No backup strategy"
+        ],
+        "resources": [
+            {
+                "name": "Netlify",
+                "url": "https://www.netlify.com/"
+            },
+            {
+                "name": "Docker Docs",
+                "url": "https://docs.docker.com/"
+            }
+        ]
+    },
+    "security": {
+        "name": "Web Security",
+        "overview": "Protecting websites and applications from cyber threats and ensuring data privacy.",
+        "prerequisites": [
+            "HTTP Basics",
+            "Backend Basics"
+        ],
+        "concepts": [
+            "Authentication",
+            "Authorization",
+            "Encryption",
+            "Vulnerabilities (OWASP)"
+        ],
+        "tools": [
+            "OWASP ZAP",
+            "Helmet.js",
+            "JWT",
+            "HTTPS"
+        ],
+        "roadmap": {
+            "beginner": [
+                "HTTPS",
+                "Strong Passwords",
+                "Basic Auth"
+            ],
+            "intermediate": [
+                "JWT",
+                "OAuth",
+                "Sanitization (XSS/SQLi)"
+            ],
+            "advanced": [
+                "Penetration Testing",
+                "Security Audits",
+                "Compliance"
+            ]
+        },
+        "projects": {
+            "mini": [
+                "Secure Login System",
+                "Input Sanitizer"
+            ],
+            "realworld": [
+                "Auth Microservice",
+                "Security Audit Report"
+            ]
+        },
+        "bestPractices": [
+            "Sanitize all inputs",
+            "Use HTTPS",
+            "Keep dependencies updated"
+        ],
+        "mistakes": [
+            "Trusting client input",
+            "Hardcoding keys",
+            "Using weak algorithms"
+        ],
+        "resources": [
+            {
+                "name": "OWASP Top 10",
+                "url": "https://owasp.org/www-project-top-ten/"
+            },
+            {
+                "name": "Web Security Academy",
+                "url": "https://portswigger.net/web-security"
+            }
+        ]
+    }
+}

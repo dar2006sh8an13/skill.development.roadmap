@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadmap Details - skill.deveploment.roadmap</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .roadmap-container {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .level {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .level h3 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .topic-list {
+            list-style: none;
+        }
+
+        .topic-item {
+            background: #f8f9fa;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            border-radius: 4px;
+        }
+
+        .topic-item.optional {
+            border-left-color: #6c757d;
+        }
+
+        .topic-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .topic-title {
+            font-weight: bold;
+        }
+
+        .topic-status {
+            font-size: 0.8rem;
+            padding: 2px 8px;
+            border-radius: 12px;
+            background: #e2e6ea;
+            color: #333;
+        }
+
+        .topic-desc {
+            margin-top: 5px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/images/logo.jpeg" alt="skill.deveploment.roadmap" class="logo-img">
+                <span>skill.deveploment.roadmap</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="practices.html">Best Practices</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <a href="index.html" class="back-link">&larr; Back to Roadmaps</a>
+        <div id="roadmap-header" class="hero" style="border-radius: 8px;">
+            <h1 id="roadmap-title">Loading...</h1>
+            <p id="roadmap-desc"></p>
+        </div>
+
+        <div id="roadmap-content" class="roadmap-container">
+            <!-- Roadmap levels will be injected here -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Developer Roadmaps</p>
+    </footer>
+
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/roadmap.js"></script>
+</body>
+
+</html>
