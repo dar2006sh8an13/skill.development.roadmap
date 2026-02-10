@@ -134,10 +134,39 @@ const getPractices = async (req, res) => {
     }
 };
 
+const getAllSkills = async (req, res) => {
+    try {
+        let allSkills = [];
+
+        const skillsDir = path.join(__dirname, '../../data/skills');
+        const skillFiles = await fs.readdir(skillsDir);
+
+        for (const file of skillFiles) {
+            if (file.endsWith('.json')) {
+                const skillData = await readJsonFile('skills', file.replace('.json', ''));
+                if (skillData) {
+                    allSkills.push({
+                        id: file.replace('.json', ''),
+                        name: skillData.name || file.replace('.json', ''),
+                        overview: skillData.overview || '',
+                        ...skillData
+                    });
+                }
+            }
+        }
+
+        res.json(allSkills);
+    } catch (error) {
+        console.error('Failed to fetch all skills:', error);
+        res.status(500).json({ error: 'Failed to fetch skills' });
+    }
+};
+
 module.exports = {
     getRoadmaps,
     getRoadmapById,
     getSkillDetails,
     getAllProjects,
-    getPractices
+    getPractices,
+    getAllSkills
 };
