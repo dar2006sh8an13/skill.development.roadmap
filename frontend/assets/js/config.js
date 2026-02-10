@@ -1,10 +1,13 @@
 // CONFIGURATION
 // ------------------------------------------------------------------
 // 1. FOR LOCAL DEVELOPMENT: Use "http://localhost:3000"
-// 2. FOR PRODUCTION (Render): Uncomment the second line and use your Render URL
+// 2. FOR PRODUCTION (Render): Use your Render backend URL
 // ------------------------------------------------------------------
 
-const API_BASE_URL = "http://localhost:3000";
-// const API_BASE_URL = "https://your-app-name.onrender.com";
+// PRODUCTION - Render Backend
+const API_BASE_URL = "https://skill-development-roadmap.onrender.com";
 
-// NOTE: If you deploy to Vercel, you MUST update the URL above to your Render URL.
+// LOCAL DEVELOPMENT (uncomment for local testing)
+// const API_BASE_URL = "http://localhost:3000";
+
+// NOTE: When deploying to Vercel, ensure this points to your Render backend URL.
