@@ -5,7 +5,7 @@
 // ------------------------------------------------------------------
 
 // PRODUCTION - Render Backend
-const API_BASE_URL = "https://skill-development-roadmap.onrender.com";
+const API_BASE_URL = "https://skill-deveploment-roadmap.onrender.com";
 
 // LOCAL DEVELOPMENT (uncomment for local testing)
 // const API_BASE_URL = "http://localhost:3000";
