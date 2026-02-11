@@ -7,6 +7,13 @@
         "icon": "💻"
     },
     {
+        "id": "frontend-developer",
+        "title": "Frontend Developer",
+        "type": "role",
+        "description": "Build beautiful, responsive, and interactive user interfaces for web applications.",
+        "icon": "🎨"
+    },
+    {
         "id": "ai-engineer",
         "title": "AI Engineer",
         "type": "role",

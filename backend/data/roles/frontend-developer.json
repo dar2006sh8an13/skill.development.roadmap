@@ -1,0 +1,334 @@
+{
+    "id": "frontend-developer",
+    "title": "Frontend Developer",
+    "type": "role",
+    "description": "Build beautiful, responsive, and interactive user interfaces for web applications.",
+    "estimatedTime": "4-8 Months",
+    "overview": "A Frontend Developer specializes in creating the visual and interactive aspects of websites and web applications. They work with HTML, CSS, and JavaScript to build user interfaces that are both aesthetically pleasing and highly functional. Frontend developers bridge the gap between design and technology.",
+    "careerScope": "High demand across all industries. Salaries range from $70k - $130k+ depending on experience and location. Remote work opportunities are abundant.",
+    "companiesHiring": [
+        "Google",
+        "Meta",
+        "Microsoft",
+        "Amazon",
+        "Netflix",
+        "Airbnb",
+        "Shopify",
+        "Stripe"
+    ],
+    "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Git",
+        "Responsive Design",
+        "Performance Optimization"
+    ],
+    "roadmap": {
+        "beginner": [
+            {
+                "name": "HTML",
+                "desc": "Learn the structure and semantics of web pages.",
+                "status": "required",
+                "skillId": "html"
+            },
+            {
+                "name": "CSS",
+                "desc": "Master styling, layouts, and responsive design.",
+                "status": "required",
+                "skillId": "css"
+            },
+            {
+                "name": "Git & GitHub",
+                "desc": "Version control is essential for collaboration.",
+                "status": "required",
+                "skillId": "git"
+            }
+        ],
+        "intermediate": [
+            {
+                "name": "JavaScript",
+                "desc": "Learn modern JavaScript (ES6+), DOM manipulation, and async programming.",
+                "status": "required",
+                "skillId": "javascript"
+            },
+            {
+                "name": "React",
+                "desc": "Master the most popular frontend framework.",
+                "status": "required",
+                "skillId": "react"
+            },
+            {
+                "name": "Tailwind CSS / Bootstrap",
+                "desc": "Learn utility-first CSS frameworks for rapid development.",
+                "status": "optional",
+                "skillId": "css"
+            }
+        ],
+        "advanced": [
+            {
+                "name": "TypeScript",
+                "desc": "Add type safety to your JavaScript applications.",
+                "status": "required",
+                "skillId": "typescript"
+            },
+            {
+                "name": "Next.js",
+                "desc": "Build production-ready React applications with SSR/SSG.",
+                "status": "required",
+                "skillId": "nextjs"
+            },
+            {
+                "name": "Performance Optimization",
+                "desc": "Learn to build fast, efficient web applications.",
+                "status": "required",
+                "skillId": "performance"
+            }
+        ]
+    },
+    "tools": [
+        "VS Code",
+        "Chrome DevTools",
+        "Figma",
+        "Git",
+        "npm/yarn",
+        "Webpack/Vite"
+    ],
+    "responsibilities": [
+        "Implement responsive and accessible user interfaces",
+        "Translate design mockups into functional code",
+        "Optimize applications for maximum speed and scalability",
+        "Ensure cross-browser compatibility",
+        "Collaborate with designers and backend developers",
+        "Write clean, maintainable, and well-documented code",
+        "Implement state management and data flow"
+    ],
+    "projects": [
+        {
+            "id": "proj-frontend-beginner-0",
+            "title": "Personal Portfolio Website",
+            "level": "Beginner",
+            "problemStatement": "Showcase your skills and projects professionally.",
+            "description": "A fully responsive personal portfolio with sections for about, skills, projects, and contact.",
+            "techStack": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "modules": [
+                "Hero Section",
+                "Projects Gallery",
+                "Contact Form",
+                "Responsive Navigation"
+            ],
+            "guide": [
+                "Step 1: Plan your layout and design.",
+                "Step 2: Build HTML structure with semantic tags.",
+                "Step 3: Style with CSS (Flexbox/Grid).",
+                "Step 4: Add interactivity with JavaScript.",
+                "Step 5: Make it responsive and deploy."
+            ],
+            "requirements": [
+                "Basic HTML/CSS knowledge",
+                "Text editor (VS Code)",
+                "Git for version control"
+            ],
+            "repoLink": "#"
+        },
+        {
+            "id": "proj-frontend-beginner-1",
+            "title": "Landing Page",
+            "level": "Beginner",
+            "problemStatement": "Create a high-converting product landing page.",
+            "description": "A marketing landing page with hero section, features, testimonials, and CTA.",
+            "techStack": [
+                "HTML",
+                "CSS"
+            ],
+            "modules": [
+                "Hero Section",
+                "Features Grid",
+                "Testimonials",
+                "Call to Action"
+            ],
+            "guide": [
+                "Step 1: Research landing page best practices.",
+                "Step 2: Create wireframe and design.",
+                "Step 3: Build HTML structure.",
+                "Step 4: Style with modern CSS techniques.",
+                "Step 5: Optimize for conversions."
+            ],
+            "requirements": [
+                "HTML/CSS fundamentals",
+                "Understanding of responsive design"
+            ],
+            "repoLink": "#"
+        },
+        {
+            "id": "proj-frontend-intermediate-0",
+            "title": "E-commerce Product Page",
+            "level": "Intermediate",
+            "problemStatement": "Build an interactive product showcase.",
+            "description": "Product page with image gallery, size selector, add to cart, and reviews.",
+            "techStack": [
+                "React",
+                "CSS Modules",
+                "Context API"
+            ],
+            "modules": [
+                "Image Gallery",
+                "Product Details",
+                "Shopping Cart",
+                "Reviews Section"
+            ],
+            "guide": [
+                "Step 1: Set up React project.",
+                "Step 2: Create component structure.",
+                "Step 3: Implement state management.",
+                "Step 4: Add cart functionality.",
+                "Step 5: Style and polish UI."
+            ],
+            "requirements": [
+                "React fundamentals",
+                "State management basics",
+                "Component design"
+            ],
+            "repoLink": "#"
+        },
+        {
+            "id": "proj-frontend-intermediate-1",
+            "title": "Blog Platform Frontend",
+            "level": "Intermediate",
+            "problemStatement": "Create a modern blog reading experience.",
+            "description": "Blog platform with article listing, reading view, search, and categories.",
+            "techStack": [
+                "React",
+                "React Router",
+                "Tailwind CSS"
+            ],
+            "modules": [
+                "Article List",
+                "Article Reader",
+                "Search & Filter",
+                "Category Navigation"
+            ],
+            "guide": [
+                "Step 1: Plan routing structure.",
+                "Step 2: Build reusable components.",
+                "Step 3: Implement search and filtering.",
+                "Step 4: Add reading experience features.",
+                "Step 5: Optimize performance."
+            ],
+            "requirements": [
+                "React and React Router",
+                "API integration",
+                "Responsive design"
+            ],
+            "repoLink": "#"
+        },
+        {
+            "id": "proj-frontend-advanced-0",
+            "title": "Real-time Dashboard",
+            "level": "Advanced",
+            "problemStatement": "Build a data visualization dashboard.",
+            "description": "Interactive dashboard with charts, real-time updates, and data filtering.",
+            "techStack": [
+                "Next.js",
+                "TypeScript",
+                "Chart.js",
+                "WebSockets"
+            ],
+            "modules": [
+                "Data Visualization",
+                "Real-time Updates",
+                "Filtering System",
+                "Export Functionality"
+            ],
+            "guide": [
+                "Step 1: Set up Next.js with TypeScript.",
+                "Step 2: Integrate charting library.",
+                "Step 3: Implement WebSocket connection.",
+                "Step 4: Build filtering and export features.",
+                "Step 5: Optimize for performance."
+            ],
+            "requirements": [
+                "Next.js and TypeScript",
+                "Data visualization concepts",
+                "WebSocket knowledge"
+            ],
+            "repoLink": "#"
+        },
+        {
+            "id": "proj-frontend-advanced-1",
+            "title": "Progressive Web App",
+            "level": "Advanced",
+            "problemStatement": "Build an offline-capable web application.",
+            "description": "PWA with offline support, push notifications, and app-like experience.",
+            "techStack": [
+                "Next.js",
+                "Service Workers",
+                "IndexedDB",
+                "Web Push API"
+            ],
+            "modules": [
+                "Service Worker",
+                "Offline Storage",
+                "Push Notifications",
+                "App Manifest"
+            ],
+            "guide": [
+                "Step 1: Understand PWA concepts.",
+                "Step 2: Implement service worker.",
+                "Step 3: Add offline caching strategy.",
+                "Step 4: Integrate push notifications.",
+                "Step 5: Test and optimize."
+            ],
+            "requirements": [
+                "Advanced JavaScript",
+                "Service Worker API",
+                "PWA best practices"
+            ],
+            "repoLink": "#"
+        }
+    ],
+    "bestPractices": [
+        "Write semantic HTML for accessibility",
+        "Follow mobile-first responsive design",
+        "Optimize images and assets for performance",
+        "Use CSS preprocessors or utility frameworks",
+        "Implement proper state management",
+        "Write reusable, modular components",
+        "Test across different browsers and devices",
+        "Follow accessibility guidelines (WCAG)"
+    ],
+    "commonMistakes": [
+        "Not testing on real devices",
+        "Ignoring accessibility from the start",
+        "Over-relying on frameworks without understanding fundamentals",
+        "Not optimizing for performance",
+        "Inconsistent naming conventions",
+        "Skipping responsive design testing",
+        "Not using version control properly"
+    ],
+    "resources": [
+        {
+            "name": "MDN Web Docs",
+            "url": "https://developer.mozilla.org/"
+        },
+        {
+            "name": "React Documentation",
+            "url": "https://react.dev/"
+        },
+        {
+            "name": "CSS-Tricks",
+            "url": "https://css-tricks.com/"
+        },
+        {
+            "name": "Frontend Masters",
+            "url": "https://frontendmasters.com/"
+        }
+    ]
+}

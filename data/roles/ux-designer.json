@@ -1,0 +1,273 @@
+{
+  "id": "ux-designer",
+  "title": "UX Designer",
+  "type": "role",
+  "description": "Design products that provide meaningful and relevant experiences to users. This involves the design of the entire process of acquiring and integrating the product, including aspects of branding, design, usability and function.",
+  "estimatedTime": "6 - 12 Months",
+  "overview": "UX (User Experience) Design is a process aimed at increasing user satisfaction with a product by improving the usability, accessibility, and pleasure provided in the interaction with the product. This roadmap will guide you from understanding the basics of human-computer interaction to mastering advanced prototyping and research techniques.",
+  "careerScope": "UX Designers are in high demand across all sectors as companies realize the value of good design. Career paths include UI/UX Designer, Product Designer, UX Researcher, and UX Strategist.",
+  "companiesHiring": [
+    "Google",
+    "Apple",
+    "Airbnb",
+    "Microsoft",
+    "Spotify",
+    "IDEO",
+    "Design Agencies",
+    "Fintech Startups"],
+ "salagryRange": "$75,000 - $130,000+",
+  "skills": [
+    "User Research",
+    "Wireframing",
+    "Prototyping",
+    "Information Architecture",
+    "Interaction Design",
+    "Visual Design",
+    "Usability Testing",
+    "Accessibility (a11y)"
+  ],
+  "roadmap": {
+    "beginner": [
+      {
+        "n f3r4g4fr4ame": "Design Thinking",
+        "desc": "Und5g4terstand the 5 stages: Empathize, Define, Ideate, Prototype, Test.",
+        "status": "required",
+        "skillId": "design-thinking"
+      },
+      {
+        "name": "Figma Fundamentals",
+        "desc": "Master the industry-standard tool for interface design and prototyping.",
+        "status": "required",
+        "skillId": "figma"
+      },
+      {
+        "name": "Wireframing Basics",
+        "desc": "Learn to create low-fidelity layouts to structure content effectively.",
+        "status": "required",
+        "skillId": "wireframing"
+      },
+      {
+        "name": "Color Theory & Typography",
+        "desc": "Understand how color and type influence user perception and readability.",
+        "status": "required",
+        "skillId": "visual-design"
+      }
+    ],
+    "intermediate": [
+      
+      {
+        "name": "Prototyping & Micro-interactions",
+        "desc": "Create interactive prototypes that simulate the final product experience.",
+        "status": "required",
+        "skillId": "prototyping"
+      },
+      {
+        "name": "User Research Methods",
+        "desc": "Conduct user interviews, surveys, and create personas to understand user needs.",
+        "status": "required",
+        "skillId": "user-research"
+      },
+      {
+        "name": "Responsive Design",
+        "desc": "Design interfaces that adapt seamlessly to different screen sizes and devices.",
+        "status": "required",
+        "skillId": "responsive-design"
+      },
+      {
+        "name": "UI Design Patterns",
+        "desc": "Learn common interface patterns for navigation, forms, and lists.",
+        "status": "required",
+        "skillId": "ui-patterns"
+      }
+    ],
+    "advanced": [
+      {
+        "name": "Design Systems",
+        "desc": "Build and maintain a library of reusable components and guidelines for consistency.",
+        "status": "required",
+        "skillId": "design-systems"
+      },
+      {
+        "name": "Accessibility (WCAG)",
+        "desc": "Ensure your designs are usable by people with diverse abilities.",
+        "status": "required",
+        "skillId": "accessibility"
+      },
+      {
+        "name": "Usability Testing & Analytics",
+        "desc": "Validate designs with real users and use data to iterate and improve.",
+        "status": "required",
+        "skillId": "usability-testing"
+      },
+      {
+        "name": "UX Strategy & Leadership",
+        "desc": "Align design goals with business objectives and lead design teams.",
+        "status": "optional",
+        "skillId": "ux-strategy"
+      }
+    ]
+  },
+  "tools": [
+    "Figma",
+    "Adobe XD",
+    "Sketch",
+    "Miro",
+    "InVision",
+    "Zeplin",
+    "Notion",
+    "Maze"
+  ],
+  "projects": [
+    {
+      "id": "proj-ux-landing-page",
+      "title": "Product Landing Page",
+      "level": "Beginner",
+      "category": "Web Design",
+      "problemStatement": "A local coffee shop needs a website to showcase their menu and location, but they have no online presence.",
+      "description": "Design a clean, responsive landing page for 'Brew & Bean', a fictional local coffee shop. Focus on visual hierarchy and clear calls-to-action.",
+      "techStack": [
+        "Figma",
+        "Wireframing",
+        "UI Design"
+      ],
+      "keyConcepts": [
+        "Visual Hierarchy",
+        "Typography",
+        "Grid Systems"
+      ],
+      "learningOutcomes": [
+        "Understanding grid systems",
+        "Using auto-layout in Figma",
+        "Selecting appropriate typography and colors"
+      ],
+      "implementationPlan": [
+        "Create a mood board for inspiration",
+        "Sketch low-fidelity wireframes on paper",
+        "Translate wireframes to high-fidelity in Figma",
+        "Create a simple desktop and mobile view"
+      ],
+      "guide": [
+        "Start by defining the brand colors (e.g., warm browns and creams).",
+        "Use a 12-column grid for the desktop layout.",
+        "Ensure the 'Visit Us' button is prominent."
+      ],
+      "requirements": [
+        "Responsive design (Desktop & Mobile)",
+        "Consistent color palette",
+        "High-quality imagery"
+      ]
+    },
+    {
+      "id": "proj-ux-mobile-app",
+      "title": "Task Manager App",
+      "level": "Intermediate",
+      "category": "Mobile Design",
+      "problemStatement": "Users struggle to organize their daily tasks and often feel overwhelmed by complex productivity apps.",
+      "description": "Design a mobile app interface for a simple, gesture-based task manager. Focus on interaction design and ease of use.",
+      "techStack": [
+        "Figma",
+        "Prototyping",
+        "Interaction Design"
+      ],
+      "keyConcepts": [
+        "Gestures",
+        "Micro-interactions",
+        "Mobile Constraints"
+      ],
+      "learningOutcomes": [
+        "Designing for touch targets",
+        "Using Figma component variants",
+        "Creating interactive prototypes with smart animate"
+      ],
+      "implementationPlan": [
+        "Define user flows (Add task, Complete task, Delete task)",
+        "Create component library (Buttons, List items)",
+        "Design screens for Home, Task Details, and Settings",
+        "Prototype the interactions (Swipe to delete, Tap to complete)"
+      ],
+      "guide": [
+        "Is usability your top priority? Keep the interface clutter-free.",
+        "Use swipe gestures for quick actions.",
+        "Add a satisfying animation when a task is completed."
+      ],
+      "requirements": [
+        "Interactive Prototype",
+        "Dark Mode version",
+        "Icon set consistency"
+      ]
+    },
+    {
+      "id": "proj-ux-ecommerce",
+      "title": "E-commerce Checkout Flow",
+      "level": "Advanced",
+      "category": "UX Research",
+      "problemStatement": "Cart abandonment rates are high due to a confusing / long checkout process.",
+      "description": "Redesign the checkout flow for an online fashion retailer to minimize friction and increase conversion rates.",
+      "techStack": [
+        "User Research",
+        "Wireframing",
+        "Figma",
+        "Usability Testing"
+      ],
+      "keyConcepts": [
+        "Form Design",
+        "User Friction",
+        "Trust Signals"
+      ],
+      "learningOutcomes": [
+        "Optimizing form usability",
+        "Conducting heuristic analysis",
+        "Reducing cognitive load"
+      ],
+      "implementationPlan": [
+        "Audit existing checkout flows (Amazon, ASOS)",
+        "Map out the ideal user journey",
+        "Design the steps: Cart -> Shipping -> Payment -> Confirmation",
+        "Conduct a small usability test with friends/peers"
+      ],
+      "deploymentStrategy": "Present as a case study with 'Before' and 'After' metrics.",
+      "guide": [
+        "Allow guest checkout (don't force signup).",
+        "Show progress indicators clearly.",
+        "Provide real-time validation for form fields."
+      ]
+    },
+    {
+      "id": "proj-ux-capstone",
+      "title": "Travel Buddy Case Study",
+      "level": "Capstone",
+      "category": "Product Design",
+      "problemStatement": "Solo travelers often feel unsafe and lonely but struggle to find reliable companions or safe itineraries.",
+      "description": "End-to-end product design for 'Travel Buddy', an app connecting solo travelers. You will cover research, ideation, design, and testing.",
+      "techStack": [
+        "Full Design Process",
+        "Figma",
+        "Miro",
+        "Maze"
+      ],
+      "keyConcepts": [
+        "Double Diamond Process",
+        "Empathy Mapping",
+        "MVP Definition"
+      ],
+      "learningOutcomes": [
+        "Executing a full design sprint",
+        "Creating a comprehensive case study",
+        "Balancing user needs with business goals"
+      ],
+      "implementationPlan": [
+        "Phase 1: Discover. Conduct 5 user interviews.",
+        "Phase 2: Define. Create User Personas and Journey Maps.",
+        "Phase 3: Develop. Sketch solutions and create mid-fi wireframes.",
+        "Phase 4: Deliver. High-fidelity prototype and a polished case study presentation."
+      ],
+      "deploymentStrategy": "Publish on Behance/Dribbble and your personal portfolio.",
+      "securityConsiderations": "Consider user verification and privacy features for safety.",
+      "commonPitfalls": [
+        "Skipping the research phase",
+        "Designing for yourself instead of the user",
+        "Overcomplicating the MVP features"
+      ]
+    }
+  ]
+}

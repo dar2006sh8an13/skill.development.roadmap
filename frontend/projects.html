@@ -32,8 +32,8 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="assets/images/logo.jpeg" alt="skill.deveploment.roadmap" class="logo-img">
-                <span>skill.deveploment.roadmap</span>
+                <img src="assets/images/logo.jpeg" alt="skill.development.roadmap" class="logo-img">
+                <span>skill.development.roadmap</span>
             </div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
@@ -70,7 +70,7 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3>skill.deveploment.roadmap</h3>
+                <h3>skill.development.roadmap</h3>
                 <p>Step-by-step guides and paths to learn different tools or technologies. Open source and community
                     driven.</p>
                 <div class="social-links">
@@ -115,13 +115,13 @@
                 <h3>Contact Us</h3>
                 <p>Have questions or suggestions? We'd love to hear from you.</p>
                 <ul>
-                    <li><a href="mailto:skills.deveploment.section@gmail.com">skills.deveploment.section@gmail.com</a>
+                    <li><a href="mailto:skills.development.section@gmail.com">skills.development.section@gmail.com</a>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 skill.deveploment.roadmap. All rights reserved.</p>
+            <p>&copy; 2026 skill.development.roadmap. All rights reserved.</p>
         </div>
     </footer>
 
@@ -150,52 +150,108 @@
                     return;
                 }
 
-                grid.innerHTML = projects.map(p => `
-                    <div class="project-card-enhanced ${p.level}" data-level="${p.level}">
-                        <div class="project-header">
-                            <span class="badge ${p.level ? p.level.toLowerCase() : 'beginner'}">${p.level || 'Beginner'}</span>
-                            <span class="badge" style="background:#eee; color:#333; font-size:0.7em;">
-                                ${p.category || 'Curated'}
-                            </span>
-                            <h4>${p.title}</h4>
-                        </div>
-                        <p class="project-problem"><strong>Problem:</strong> ${p.problemStatement || 'Build this to learn.'}</p>
-                        <p class="project-desc">${p.description}</p>
-                        
-                        ${(p.learningOutcomes) ? `
-                        <div class="project-concepts" style="margin-top: 10px; font-size: 0.9em; color: #555;">
-                            <strong>Learning Outcomes:</strong> ${p.learningOutcomes.join(', ')}
-                        </div>
-                        ` : ''}
+                // Group projects by level
+                const grouped = {
+                    'Beginner': [],
+                    'Intermediate': [],
+                    'Advanced': [],
+                    'Capstone': [],
+                    'Other': []
+                };
 
-                        <div class="project-tech">
-                            ${(p.techStack || []).map(t => `<span class="tech-tag">${t}</span>`).join('')}
-                        </div>
-                        
-                        <button class="view-project-btn" onclick="toggleProjectDetails(this)">View Details</button>
-                        
-                        <div class="project-details" style="display: none;">
-                            ${p.implementationPlan ? `
-                            <h5>Implementation Plan:</h5>
-                            <ul class="impl-steps" style="padding-left: 20px; margin-bottom: 10px;">
-                                ${p.implementationPlan.map(s => `<li>${s}</li>`).join('')}
-                            </ul>
-                            ` : ''}
+                projects.forEach(p => {
+                    const level = p.level || 'Other';
+                    if (grouped[level]) {
+                        grouped[level].push(p);
+                    } else {
+                        grouped['Other'].push(p);
+                    }
+                });
 
-                            ${p.guide ? `
-                            <h5>Guide:</h5>
-                            <ul class="impl-steps" style="padding-left: 20px; margin-bottom: 10px;">
-                                ${p.guide.map(s => `<li>${s}</li>`).join('')}
-                            </ul>
-                            ` : ''}
+                // Render grouped projects
+                let html = '';
+                const levels = ['Beginner', 'Intermediate', 'Advanced', 'Capstone'];
 
-                             <div class="project-meta-grid" style="margin-top: 15px; font-size: 0.85em; color: #666;">
-                                ${p.deploymentStrategy ? `<div><strong>Deployment:</strong> ${p.deploymentStrategy}</div>` : ''}
-                                ${p.securityConsiderations ? `<div style="margin-top:5px;"><strong>Security:</strong> ${p.securityConsiderations}</div>` : ''}
+                levels.forEach(level => {
+                    if (grouped[level].length > 0) {
+                        html += `
+                            <div class="level-section" style="margin-bottom: 40px;">
+                                <h2 style="color: #6f42c1; border-bottom: 3px solid #6f42c1; padding-bottom: 10px; margin-bottom: 20px;">
+                                    ${level} Projects (${grouped[level].length})
+                                </h2>
+                                <div class="projects-grid-level">
+                                    ${grouped[level].map(p => `
+                                        <div class="project-card-enhanced ${p.level}" data-level="${p.level}">
+                                            <div class="project-header">
+                                                <span class="badge ${p.level ? p.level.toLowerCase() : 'beginner'}">${p.level || 'Beginner'}</span>
+                                                <span class="badge" style="background:#eee; color:#333; font-size:0.7em;">
+                                                    ${p.category || 'Curated'}
+                                                </span>
+                                                <h4>${p.title}</h4>
+                                            </div>
+                                            <p class="project-problem"><strong>Problem:</strong> ${p.problemStatement || 'Build this to learn.'}</p>
+                                            <p class="project-desc">${p.description}</p>
+                                            
+                                            ${(p.learningOutcomes) ? `
+                                            <div class="project-concepts" style="margin-top: 10px; font-size: 0.9em; color: #555;">
+                                                <strong>Learning Outcomes:</strong> ${p.learningOutcomes.join(', ')}
+                                            </div>
+                                            ` : ''}
+
+                                            <div class="project-tech">
+                                                ${(p.techStack || []).map(t => `<span class="tech-tag">${t}</span>`).join('')}
+                                            </div>
+                                            
+                                            <button class="view-project-btn" onclick="toggleProjectDetails(this)">View Details</button>
+                                            
+                                            <div class="project-details" style="display: none;">
+                                                ${p.implementationPlan ? `
+                                                <h5>Implementation Plan:</h5>
+                                                <ul class="impl-steps" style="padding-left: 20px; margin-bottom: 10px;">
+                                                    ${p.implementationPlan.map(s => `<li>${s}</li>`).join('')}
+                                                </ul>
+                                                ` : ''}
+
+                                                ${p.guide ? `
+                                                <h5>Guide:</h5>
+                                                <ul class="impl-steps" style="padding-left: 20px; margin-bottom: 10px;">
+                                                    ${p.guide.map(s => `<li>${s}</li>`).join('')}
+                                                </ul>
+                                                ` : ''}
+
+                                                 <div class="project-meta-grid" style="margin-top: 15px; font-size: 0.85em; color: #666;">
+                                                    ${p.deploymentStrategy ? `<div><strong>Deployment:</strong> ${p.deploymentStrategy}</div>` : ''}
+                                                    ${p.securityConsiderations ? `<div style="margin-top:5px;"><strong>Security:</strong> ${p.securityConsiderations}</div>` : ''}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        `;
+                    }
+                });
+
+                // Add other projects if any
+                if (grouped['Other'].length > 0) {
+                    html += `
+                        <div class="level-section">
+                            <h2 style="color: #6f42c1; border-bottom: 3px solid #6f42c1; padding-bottom: 10px; margin-bottom: 20px;">
+                                Other Projects (${grouped['Other'].length})
+                            </h2>
+                            <div class="projects-grid-level">
+                                ${grouped['Other'].map(p => `
+                                    <div class="project-card-enhanced" data-level="${p.level || 'other'}">
+                                        <h4>${p.title}</h4>
+                                        <p>${p.description}</p>
+                                    </div>
+                                `).join('')}
                             </div>
                         </div>
-                    </div>
-                `).join('');
+                    `;
+                }
+
+                grid.innerHTML = html;
             }
 
             function filterProjects() {
