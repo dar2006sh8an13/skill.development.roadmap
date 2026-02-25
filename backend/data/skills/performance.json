@@ -1,0 +1,28 @@
+{
+  "id": "performance",
+  "name": "Performance",
+  "type": "skill",
+  "overview": "This is a placeholder for the performance skill. Detailed content is coming soon.",
+  "prerequisites": [],
+  "concepts": [
+    "Basics",
+    "Advanced Topics"
+  ],
+  "learningOrder": [
+    "Introduction",
+    "Deep Dive"
+  ],
+  "tools": [],
+  "roadmap": {
+    "beginner": [
+      "Learn the basics"
+    ],
+    "intermediate": [
+      "Practice with projects"
+    ],
+    "advanced": [
+      "Master advanced concepts"
+    ]
+  },
+  "dateCreated": "2026-02-25T06:12:08.542Z"
+}
