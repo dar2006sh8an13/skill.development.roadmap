@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - skill.development.roadmap</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* ── Courses Page Styles ── */
+        .courses-form {
+            max-width: 560px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 12px;
+            padding: 36px 32px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .courses-form h2 {
+            margin-bottom: 8px;
+            color: #2c3e50;
+            font-size: 1.5rem;
+        }
+
+        .courses-form p.subtitle {
+            color: #666;
+            margin-bottom: 28px;
+            font-size: 0.95rem;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+            color: #333;
+            font-size: 0.95rem;
+        }
+
+        .form-group select {
+            width: 100%;
+            padding: 12px 14px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            background: #fafafa;
+            color: #333;
+            transition: border-color 0.2s;
+            appearance: none;
+            cursor: pointer;
+        }
+
+        .form-group select:focus {
+            outline: none;
+            border-color: #6f42c1;
+            background: #fff;
+        }
+
+        .btn-recommend {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #6f42c1, #a855f7);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.05rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.15s, box-shadow 0.2s;
+            margin-top: 6px;
+        }
+
+        .btn-recommend:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(111, 66, 193, 0.35);
+        }
+
+        /* ── Results Area ── */
+        .results-area {
+            max-width: 800px;
+            margin: 0 auto 60px;
+        }
+
+        .results-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 32px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            animation: fadeInUp 0.4s ease;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(16px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .results-card h3 {
+            color: #2c3e50;
+            margin-bottom: 6px;
+            font-size: 1.25rem;
+        }
+
+        .results-card .results-meta {
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+
+        .skill-roadmap {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            counter-reset: step;
+        }
+
+        .skill-roadmap li {
+            position: relative;
+            padding: 20px 20px 20px 56px;
+            margin-bottom: 20px;
+            background: #f8f9fa;
+            border-left: 4px solid #6f42c1;
+            border-radius: 6px;
+            transition: background 0.2s, transform 0.15s;
+        }
+
+        .skill-roadmap li::before {
+            content: counter(step);
+            position: absolute;
+            left: 14px;
+            top: 24px;
+            width: 28px;
+            height: 28px;
+            background: #6f42c1;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            font-weight: 700;
+            counter-increment: step;
+        }
+
+        .skill-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .skill-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn-sm {
+            padding: 8px 14px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s;
+            border: none;
+        }
+
+        .error-msg {
+            text-align: center;
+            color: #e74c3c;
+            padding: 16px;
+            background: #fdf0ef;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/images/logo.jpeg" alt="skill.development.roadmap" class="logo-img">
+                <span>skill.development.roadmap</span>
+            </div>
+
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#skills-container">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="practices.html">Best Practices</a></li>
+                <li><a href="courses.html" class="active">Courses</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Hero -->
+        <section class="hero" style="background: linear-gradient(135deg, #6f42c1, #a855f7);">
+            <h1>AI Skill Recommendation System</h1>
+            <p>Select your domain and level to get a personalized learning roadmap.</p>
+        </section>
+
+        <!-- Selection Form -->
+        <div class="courses-form">
+            <h2>Find Your Path</h2>
+            <p class="subtitle">Choose a job domain and your current skill level.</p>
+
+            <div class="form-group">
+                <label for="domain-select">Job Domain</label>
+                <select id="domain-select">
+                    <option value="">Loading domains...</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="level-select">Level</label>
+                <select id="level-select">
+                    <option value="">Loading levels...</option>
+                </select>
+            </div>
+
+            <button class="btn-recommend" id="get-path-btn">Get Skill Path</button>
+        </div>
+
+        <!-- Results -->
+        <div class="results-area" id="results-area"></div>
+    </main>
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>skill.development.roadmap</h3>
+                <p>Step-by-step guides and paths to learn different tools or technologies. Open source and community
+                    driven.</p>
+                <div class="social-links">
+
+                    <a href="https://www.instagram.com/skill._ds?igsh=c2lyajd0MG5tZTNm" class="social-link"
+                        aria-label="Instagram" style="background: transparent;">
+                        <svg viewBox="0 0 24 24" style="width: 28px; height: 28px;">
+                            <defs>
+                                <radialGradient id="ig_grad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                                    <stop offset="0%" style="stop-color:#f09433;stop-opacity:1" />
+                                    <stop offset="25%" style="stop-color:#e6683c;stop-opacity:1" />
+                                    <stop offset="50%" style="stop-color:#dc2743;stop-opacity:1" />
+                                    <stop offset="75%" style="stop-color:#cc2366;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#bc1888;stop-opacity:1" />
+                                </radialGradient>
+                            </defs>
+                            <rect width="24" height="24" rx="6" fill="url(#ig_grad)" />
+                            <path fill="#ffffff"
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                    <a href="https://chat.whatsapp.com/GpCw2yWr9AE9OW7LdSc1xG" class="social-link real-icon"
+                        aria-label="WhatsApp" style="background: transparent;">
+                        <svg viewBox="0 0 24 24" style="width: 28px; height: 28px;">
+                            <circle cx="12" cy="12" r="12" fill="#25D366" />
+                            <path fill="#ffffff"
+                                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-8.683-2.031-.967-.272-.297-.471-.421-.644-.544-.174-.124-.372-.198-.718-.198-.347 0-.917.129-1.388.644s-1.808 1.758-1.808 4.286c0 2.528 1.832 4.971 2.083 5.318.252.347 3.585 5.503 8.736 7.712.519.221.921.362 1.233.463.513.167 1.096.143 1.558.075.52-.077 1.758-.718 2.006-1.411.248-.694.248-1.289.173-1.413z" />
+                        </svg>
+                    </a>
+                    <a href="https://t.me/skillds" class="social-link" aria-label="Telegram"
+                        style="background: transparent;">
+                        <svg viewBox="0 0 24 24" style="width: 28px; height: 28px;">
+                            <circle cx="12" cy="12" r="12" fill="#0088cc" />
+                            <path fill="#ffffff"
+                                d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.891 7.007l-2.012 9.487c-.151.67-.552.836-1.114.519l-3.078-2.268-1.485 1.429c-.164.164-.302.302-.619.302l.221-3.132 5.7-5.148c.248-.221-.054-.344-.383-.124l-7.045 4.435-3.033-.948c-.659-.206-.671-.659.137-.975l11.854-4.572c.549-.206 1.028.124.857.996z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="practices.html">Best Practices</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>Have questions or suggestions? We'd love to hear from you.</p>
+                <ul>
+                    <li><a href="mailto:skills.development.section@gmail.com">skills.development.section@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 skill.development.roadmap. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/config.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const domainSelect = document.getElementById('domain-select');
+            const levelSelect = document.getElementById('level-select');
+            const btn = document.getElementById('get-path-btn');
+            const resultsArea = document.getElementById('results-area');
+
+            // Mock user ID for MVP
+            const USER_ID = 1;
+
+            // Fetch domains and levels from API
+            async function loadOptions() {
+                try {
+                    const response = await fetch(`${API_BASE_URL}/api/recommend/options`);
+                    const data = await response.json();
+                    if (data.domains) {
+                        domainSelect.innerHTML = '<option value="">— Select Domain —</option>' +
+                            data.domains.map(d => `<option value="${d}">${d}</option>`).join('');
+                    }
+                    if (data.levels) {
+                        levelSelect.innerHTML = '<option value="">— Select Level —</option>' +
+                            data.levels.map(l => `<option value="${l}">${l}</option>`).join('');
+                    }
+                } catch (err) {
+                    console.error('Failed to load options:', err);
+                }
+            }
+
+            loadOptions();
+
+            // Helper to extract YouTube ID from diversas formats
+            function getYoutubeId(url) {
+                if (!url) return null;
+                const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+                const match = url.match(regExp);
+                return (match && match[2].length === 11) ? match[2] : null;
+            }
+
+            // Render Skill Path
+            btn.addEventListener('click', async () => {
+                const domain = domainSelect.value;
+                const level = levelSelect.value;
+
+                if (!domain || !level) {
+                    resultsArea.innerHTML = `<div class="results-card"><p class="error-msg">Please select both a domain and a level.</p></div>`;
+                    return;
+                }
+
+                btn.textContent = 'Loading...';
+                btn.disabled = true;
+
+                try {
+                    const response = await fetch(`${API_BASE_URL}/api/recommend`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ domain, level })
+                    });
+                    const data = await response.json();
+
+                    if (data.skills && data.skills.length > 0) {
+                        const skillItems = data.skills.map((s, idx) => {
+                            return `
+                                <li id="skill-item-${idx}">
+                                    <div class="skill-header">
+                                        <span class="skill-name">${s.skill}</span>
+                                    </div>
+                                </li>
+                            `;
+                        }).join('');
+
+                        resultsArea.innerHTML = `
+                            <div class="results-card">
+                                <h3>${data.domain} — ${data.level} Path</h3>
+                                <p class="results-meta">${data.skills.length} core skills to master.</p>
+                                <ul class="skill-roadmap">${skillItems}</ul>
+                            </div>`;
+                    } else {
+                        resultsArea.innerHTML = `<div class="results-card"><p class="no-results">Path not found for selected options.</p></div>`;
+                    }
+                } catch (err) {
+                    resultsArea.innerHTML = `<div class="results-card"><p class="error-msg">Error fetching recommendation.</p></div>`;
+                } finally {
+                    btn.textContent = 'Get Skill Path';
+                    btn.disabled = false;
+                }
+            });
+
+            // Global functions for inline attributes
+        });
+    </script>
+</body>
+
+</html>
+
+</html>

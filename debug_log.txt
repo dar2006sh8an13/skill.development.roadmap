@@ -1,0 +1,11 @@
+-- RAW SKILL_RULES.JS START --
+const SKILL_RULES = {
+    "TEST": {
+        Beginner: [
+            { skill: "Test Skill", youtube: "https://www.youtube.com/watch?v=dQw4w9WgXcQ" }
+        ]
+    }
+};
+module.exports = SKILL_RULES;
+
+-- RAW SKILL_RULES.JS END --

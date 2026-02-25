@@ -17,7 +17,7 @@ app.use((req, res, next) => {
     console.log(`${new Date().toISOString()} - ${req.method} ${req.url}`);
     next();
 });
-// app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.join(__dirname, '../../frontend')));
 
 const apiRoutes = require('./routes/api');
 const authRoutes = require('./routes/authRoutes');
@@ -34,9 +34,9 @@ app.use('/api', apiRoutes);
 // CURRENTLY ACTIVE - Mock mode enabled for testing
 app.use('/api/auth', mockAuthRoutes);
 
-// Root Route for Render Health Check
+// Root Route - Serve frontend home page
 app.get('/', (req, res) => {
-    res.send('API is running');
+    res.sendFile(path.join(__dirname, '../../frontend/index.html'));
 });
 
 // Fallback to index.html for SPA-like navigation (if needed, or just 404)
