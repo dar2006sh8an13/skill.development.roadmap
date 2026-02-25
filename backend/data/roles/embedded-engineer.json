@@ -1,0 +1,100 @@
+{
+    "id": "embedded-engineer",
+    "title": "Embedded Engineer",
+    "type": "role",
+    "description": "Design and develop software for embedded systems and hardware devices.",
+    "estimatedTime": "12 - 24 Months",
+    "overview": "Embedded systems engineering is a specialized field that combines electrical engineering and computer science. Engineers in this field design and develop the software and hardware that control countless devices we use every day, from microwaves and cars to medical equipment and industrial robots.",
+    "careerScope": "Embedded engineers work in automotive, aerospace, consumer electronics, and medical device industries. Roles include Embedded Software Engineer, Firmware Engineer, and IoT Developer.",
+    "companiesHiring": [
+        "Intel",
+        "NVIDIA",
+        "Tesla",
+        "Boeing",
+        "Samsung",
+        "Qualcomm",
+        "Bosch"
+    ],
+    "salaryRange": "$85,000 - $150,000+",
+    "skills": [
+        "C/C++",
+        "Microcontrollers",
+        "RTOS",
+        "Digital Logic",
+        "Device Drivers",
+        "PCB Design",
+        "IoT Protocols"
+    ],
+    "roadmap": {
+        "beginner": [
+            {
+                "name": "C Programming for Embedded",
+                "desc": "Master memory management, pointers, and bitwise operations.",
+                "status": "required",
+                "skillId": "cpp"
+            },
+            {
+                "name": "Computer Architecture",
+                "desc": "Understand CPU, memory, and I/O registers.",
+                "status": "required",
+                "skillId": "cs-fundamental"
+            }
+        ],
+        "intermediate": [
+            {
+                "name": "Microcontroller Interfaces",
+                "desc": "Learn UART, SPI, I2C, and GPIO on platforms like STM32 or AVR.",
+                "status": "required",
+                "skillId": "python"
+            },
+            {
+                "name": "Real-Time Operating Systems (RTOS)",
+                "desc": "Concurrency, task scheduling, and semaphores using FreeRTOS.",
+                "status": "required",
+                "skillId": "cs-fundamental"
+            }
+        ],
+        "advanced": [
+            {
+                "name": "Device Drivers & Kernel",
+                "desc": "Writing low-level drivers and understanding OS kernels.",
+                "status": "required",
+                "skillId": "linux"
+            },
+            {
+                "name": "System on Chip (SoC) Design",
+                "desc": "Advanced architecture and FPGA integration.",
+                "status": "optional",
+                "skillId": "system-design"
+            }
+        ]
+    },
+    "tools": [
+        "Keil MDK",
+        "STM32CubeIDE",
+        "Arduino",
+        "Oscilloscopes",
+        "Multimeters",
+        "GDB",
+        "Yocto Project"
+    ],
+    "projects": [
+        {
+            "id": "proj-embedded-weather-station",
+            "title": "IoT Weather Station",
+            "level": "Intermediate",
+            "category": "IoT",
+            "description": "Build a weather station that reads sensors and sends data via MQTT.",
+            "techStack": [
+                "ESP32",
+                "C++",
+                "MQTT"
+            ],
+            "learningOutcomes": [
+                "I2C Communication",
+                "Wi-Fi Connectivity",
+                "Power Management"
+            ]
+        }
+    ]
+}

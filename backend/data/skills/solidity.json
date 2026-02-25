@@ -1,0 +1,74 @@
+{
+    "id": "solidity",
+    "name": "Solidity",
+    "type": "skill",
+    "overview": "Solidity is an object-oriented, high-level language for implementing smart contracts. It is used for implementing smart contracts on various blockchain platforms, most notably, Ethereum.",
+    "prerequisites": [
+        "JavaScript Basics",
+        "Understanding of Blockchain Fundamentals"
+    ],
+    "concepts": [
+        "Smart Contracts",
+        "EVM (Ethereum Virtual Machine)",
+        "Gas & Transactions",
+        "State Variables & Functions"
+    ],
+    "learningOrder": [
+        "Blockchain Basics",
+        "Solidity Syntax",
+        "Contract Development",
+        "Security & Deployment"
+    ],
+    "tools": [
+        "Remix IDE",
+        "Hardhat",
+        "Truffle",
+        "MetaMask",
+        "Ethers.js"
+    ],
+    "roadmap": {
+        "beginner": [
+            "Intro to Ethereum",
+            "Solidity Basics: Types & Functions",
+            "Global Variables",
+            "Smart Contract Structure"
+        ],
+        "intermediate": [
+            "Inheritance & Interfaces",
+            "Error Handling (Require, Revert, Assert)",
+            "Events & Logging",
+            "Sending Ether (Transfer, Send, Call)"
+        ],
+        "advanced": [
+            "Gas Optimization",
+            "Security Patterns (Reentrancy, etc.)",
+            "Assembly (Yul)",
+            "Upgradable Contracts"
+        ]
+    },
+    "projects": [
+        {
+            "id": "proj-solidity-voting",
+            "title": "Decentralized Voting System",
+            "level": "Intermediate",
+            "problemStatement": "Lack of transparency in traditional voting systems.",
+            "description": "A secure voting smart contract where users can cast votes for candidates.",
+            "techStack": [
+                "Solidity",
+                "Hardhat",
+                "Ether.js"
+            ],
+            "implementationPlan": [
+                "Phase 1: Define the contract structure and variables.",
+                "Phase 2: Implement voting logic and restrictions.",
+                "Phase 3: Deploy to a testnet like Goerli or Sepolia."
+            ]
+        }
+    ],
+    "bestPractices": [
+        "Check External Calls",
+        "Protect against Reentrancy",
+        "Use Fixed Compiler Versions",
+        "Properly handle Gas limits"
+    ]
+}

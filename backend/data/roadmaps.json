@@ -175,6 +175,27 @@
         "icon": "📈"
     },
     {
+        "id": "cloud-architect",
+        "title": "Cloud Architect",
+        "type": "role",
+        "description": "Design and manage robust cloud infrastructure and strategies.",
+        "icon": "☁️"
+    },
+    {
+        "id": "embedded-engineer",
+        "title": "Embedded Engineer",
+        "type": "role",
+        "description": "Design and develop software for embedded systems and hardware.",
+        "icon": "📟"
+    },
+    {
+        "id": "solidity",
+        "title": "Solidity",
+        "type": "skill",
+        "description": "Programming language for Ethereum smart contracts.",
+        "icon": "⛓️"
+    },
+    {
         "id": "javascript",
         "title": "JavaScript",
         "type": "skill",

@@ -3438,5 +3438,76 @@
     ],
     "deploymentStrategy": "Deploy to Vercel/Netlify for static sites, or GitHub Pages.",
     "securityConsiderations": "Ensure input validation on forms to prevent XSS."
+  },
+  {
+    "id": "cloud-1",
+    "title": "Cloud Native Microservices Architecture",
+    "level": "Advanced",
+    "category": "Cloud Architecture",
+    "techStack": [
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Terraform"
+    ],
+    "description": "Design and deploy a scalable microservices architecture on AWS EKS.",
+    "problemStatement": "Build a resilient and scalable infrastructure for a high-traffic application.",
+    "learningOutcomes": [
+      "Infrastructure as Code",
+      "Container Orchestration",
+      "Service Mesh Basics"
+    ],
+    "implementationPlan": [
+      "Define infrastructure with Terraform",
+      "Containerize microservices with Docker",
+      "Deploy and manage with Kubernetes"
+    ]
+  },
+  {
+    "id": "embed-1",
+    "title": "Smart Home Hub with RTOS",
+    "level": "Intermediate",
+    "category": "Embedded Systems",
+    "techStack": [
+      "C++",
+      "FreeRTOS",
+      "ESP32",
+      "Zigbee"
+    ],
+    "description": "Develop a central hub for smart home devices using a real-time operating system.",
+    "problemStatement": "Control multiple hardware peripherals with precise timing and low power consumption.",
+    "learningOutcomes": [
+      "Task Scheduling",
+      "Peripheral Interfacing",
+      "Power Management"
+    ],
+    "implementationPlan": [
+      "Set up FreeRTOS on ESP32",
+      "Implement Zigbee communication stack",
+      "Develop sensor polling and control logic"
+    ]
+  },
+  {
+    "id": "solid-1",
+    "title": "DAO Governance Smart Contract",
+    "level": "Advanced",
+    "category": "Web3",
+    "techStack": [
+      "Solidity",
+      "Hardhat",
+      "Foundry"
+    ],
+    "description": "Create a fully functional DAO with proposal submission and weighted voting logic.",
+    "problemStatement": "Implement decentralized decision making on-chain.",
+    "learningOutcomes": [
+      "On-chain Governance",
+      "Gas Optimization",
+      "Security Auditing"
+    ],
+    "implementationPlan": [
+      "Design voting and proposal mechanisms",
+      "Write secure Solidity contracts",
+      "Test and audit for common vulnerabilities"
+    ]
   }
 ]

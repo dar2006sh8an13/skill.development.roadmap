@@ -680,5 +680,79 @@
                 "url": "https://portswigger.net/web-security"
             }
         ]
+    },
+    "solidity": {
+        "name": "Solidity",
+        "overview": "Solidity is an object-oriented, high-level language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.",
+        "prerequisites": [
+            "Basic Programming Logic",
+            "JavaScript Basics",
+            "Blockchain Fundamentals"
+        ],
+        "concepts": [
+            "Smart Contracts",
+            "State Variables & Functions",
+            "Inheritance",
+            "Events & Logging",
+            "Mappings & Structs",
+            "Security Patterns"
+        ],
+        "tools": [
+            "Remix IDE",
+            "Hardhat",
+            "Foundry",
+            "MetaMask",
+            "OpenZeppelin"
+        ],
+        "roadmap": {
+            "beginner": [
+                "Intro to Blockchain",
+                "Solidity Syntax",
+                "Contract Structure"
+            ],
+            "intermediate": [
+                "Advanced Types",
+                "Security Practices",
+                "Web3 Integration"
+            ],
+            "advanced": [
+                "Gas Optimization",
+                "DeFi Protocols",
+                "L2 Solutions"
+            ]
+        },
+        "projects": {
+            "mini": [
+                "Counter Contract",
+                "To-Do Smart Contract",
+                "Voting System"
+            ],
+            "realworld": [
+                "NFT Marketplace",
+                "DeFi Staking Platform",
+                "DAO Governance"
+            ]
+        },
+        "bestPractices": [
+            "Use recent compiler versions",
+            "Apply the Checks-Effects-Interactions pattern",
+            "Limit gas usage in loops",
+            "Explicitly define visibility"
+        ],
+        "mistakes": [
+            "Reentrancy vulnerabilities",
+            "Overflow/Underflow (use SafeMath or ^0.8.0)",
+            "Mismanaging ownership"
+        ],
+        "resources": [
+            {
+                "name": "Solidity Docs",
+                "url": "https://docs.soliditylang.org/"
+            },
+            {
+                "name": "CryptoZombies",
+                "url": "https://cryptozombies.io/"
+            }
+        ]
     }
 }

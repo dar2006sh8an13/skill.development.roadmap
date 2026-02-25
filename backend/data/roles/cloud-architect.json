@@ -1,0 +1,107 @@
+{
+    "id": "cloud-architect",
+    "title": "Cloud Architect",
+    "type": "role",
+    "description": "Design and manage robust cloud infrastructure and strategies. A Cloud Architect is responsible for overseeing a company's cloud computing strategy.",
+    "estimatedTime": "12 - 18 Months",
+    "overview": "A Cloud Architect is responsible for overseeing a company's cloud computing strategy, including cloud adoption plans, cloud application design, and cloud management and monitoring. Cloud architecture involves everything to do with cloud computing, including the front-end platforms, back-end platforms, a cloud-based delivery, and a network.",
+    "careerScope": "Cloud Architects are among the highest-paid professionals in IT. Roles include Solutions Architect, Infrastructure Architect, and Cloud Consultant.",
+    "companiesHiring": [
+        "Amazon Web Services",
+        "Google",
+        "Microsoft",
+        "IBM",
+        "Oracle",
+        "Capital One",
+        "Netflix"
+    ],
+    "salaryRange": "$120,000 - $180,000+",
+    "skills": [
+        "Networking",
+        "Security",
+        "Storage",
+        "Compute",
+        "Cloud Design Patterns",
+        "Infrastructure as Code",
+        "Cost Management"
+    ],
+    "roadmap": {
+        "beginner": [
+            {
+                "name": "Cloud Fundamentals",
+                "desc": "Understand SaaS, PaaS, IaaS and basic cloud concepts.",
+                "status": "required",
+                "skillId": "aws"
+            },
+            {
+                "name": "Networking Basics",
+                "desc": "Master TCP/IP, DNS, VPC, and Subnetting.",
+                "status": "required",
+                "skillId": "linux"
+            }
+        ],
+        "intermediate": [
+            {
+                "name": "Core Service Mastery",
+                "desc": "In-depth knowledge of EC2, S3, RDS, and IAM on AWS/Azure/GCP.",
+                "status": "required",
+                "skillId": "docker"
+            },
+            {
+                "name": "Infrastructure as Code",
+                "desc": "Automate infrastructure deployment using Terraform or CloudFormation.",
+                "status": "required",
+                "skillId": "terraform"
+            }
+        ],
+        "advanced": [
+            {
+                "name": "Cloud Design Patterns",
+                "desc": "Scalability, High Availability, and Disaster Recovery strategies.",
+                "status": "required",
+                "skillId": "system-design"
+            },
+            {
+                "name": "Serverless & Microservices",
+                "desc": "Architecting applications using Lambda, API Gateway, and Kubernetes.",
+                "status": "required",
+                "skillId": "kubernetes"
+            },
+            {
+                "name": "Cloud Security & Compliance",
+                "desc": "Implementing robust security controls and adhering to regulations.",
+                "status": "required",
+                "skillId": "security-practices"
+            }
+        ]
+    },
+    "tools": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "CloudHealth",
+        "PagerDuty"
+    ],
+    "projects": [
+        {
+            "id": "proj-cloud-multi-tier",
+            "title": "Multi-tier Scalable Web App",
+            "level": "Intermediate",
+            "category": "Architecture",
+            "description": "Deploy a multi-tier web application with auto-scaling and load balancing.",
+            "techStack": [
+                "AWS",
+                "Terraform",
+                "Nginx"
+            ],
+            "learningOutcomes": [
+                "VPC Setup",
+                "Auto-scaling groups",
+                "Load balancing"
+            ]
+        }
+    ]
+}
