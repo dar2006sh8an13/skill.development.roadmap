@@ -48,18 +48,48 @@
     },
     "projects": [
         {
-            "id": "proj-claude-cli-automation",
-            "title": "Auto-Refactor Suite",
-            "level": "Intermediate",
-            "description": "Build a workflow using Claude Code to automatically identify and fix common linting issues across a project.",
+            "id": "claude-beg-1",
+            "title": "Unit Test Bot",
+            "level": "Beginner",
+            "description": "Use Claude Code to automatically explore a repository and generate comprehensive unit tests for all utility functions.",
             "techStack": [
                 "Claude Code CLI",
-                "Bash",
-                "Node.js"
+                "Jest"
             ],
             "learningOutcomes": [
-                "Agentic task automation",
-                "CLI tool mastery"
+                "CLI file exploration",
+                "Automated test generation"
+            ]
+        },
+        {
+            "id": "claude-int-1",
+            "title": "MCP Hub Connector",
+            "level": "Intermediate",
+            "description": "Develop and integrate a custom Model Context Protocol (MCP) server that connects Claude Code to a third-party API for data-driven decisions.",
+            "techStack": [
+                "Claude CLI",
+                "TypeScript",
+                "MCP SDK"
+            ],
+            "learningOutcomes": [
+                "MCP server development",
+                "Context bridge management"
+            ]
+        },
+        {
+            "id": "claude-adv-1",
+            "title": "Auto-Refactor Agent",
+            "level": "Advanced",
+            "description": "Build an agentic pipeline using Claude Code and MCP to identify legacy patterns across a large codebase and safely migrate them to modern standards.",
+            "techStack": [
+                "Claude Code",
+                "MCP",
+                "CI/CD"
+            ],
+            "learningOutcomes": [
+                "High-level agentic orchestration",
+                "Automated PR workflows",
+                "Large-scale codebase analysis"
             ]
         }
     ],

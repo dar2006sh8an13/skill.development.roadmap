@@ -48,18 +48,51 @@
     },
     "projects": [
         {
-            "id": "proj-vibe-simple-app",
-            "title": "Vibed Dashboard",
+            "id": "vibe-beg-1",
+            "title": "AI Personal Portfolio",
             "level": "Beginner",
-            "description": "Create a fully functional CSS/JS dashboard purely through natural language prompts.",
+            "description": "Create a stunning personal portfolio website using only natural language 'vibe' descriptions and iterative AI refinement.",
             "techStack": [
                 "Cursor",
                 "v0",
-                "Tailwind"
+                "Tailwind CSS"
             ],
             "learningOutcomes": [
-                "Effective prompting",
-                "Rapid prototyping"
+                "Intent-driven layout generation",
+                "Iterative UI refinement"
+            ]
+        },
+        {
+            "id": "vibe-int-1",
+            "title": "Interactive Story Generator",
+            "level": "Intermediate",
+            "description": "Build a full-stack application that generates dynamic choose-your-own-adventure stories based on user input, developed primarily through AI pair programming.",
+            "techStack": [
+                "Replit Agent",
+                "Node.js",
+                "Express",
+                "OpenAI API"
+            ],
+            "learningOutcomes": [
+                "System instructions",
+                "Multi-file AI refactoring",
+                "AI-assisted debugging"
+            ]
+        },
+        {
+            "id": "vibe-adv-1",
+            "title": "Enterprise SaaS MVP",
+            "level": "Advanced",
+            "description": "Rapidly prototype a complex SaaS dashboard with authentication, database integration, and real-time metrics, leveraging agentic workflows for heavy lifting.",
+            "techStack": [
+                "Bolt.new",
+                "Supabase",
+                "React"
+            ],
+            "learningOutcomes": [
+                "Agentic tech stack orchestration",
+                "Large-scale AI maintenance",
+                "Complex state management via AI"
             ]
         }
     ],

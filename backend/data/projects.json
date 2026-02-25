@@ -3511,68 +3511,189 @@
     ]
   },
   {
-    "id": "prompt-1",
-    "title": "Prompt Evaluation Suite",
+    "id": "pe-beg-1",
+    "title": "Creative Prompt Pack",
+    "level": "Beginner",
+    "category": "AI/Prompt Engineering",
+    "techStack": [
+      "OpenAI Playground",
+      "Anthropic Console"
+    ],
+    "description": "Create a curated set of prompts for creative tasks like storytelling and image generation using delimiters and personas.",
+    "problemStatement": "Beginners often struggle with vague AI inputs.",
+    "learningOutcomes": [
+      "Role-based prompting",
+      "Delimiter usage"
+    ],
+    "implementationPlan": [
+      "Research persona techniques",
+      "Draft 10 custom prompts"
+    ]
+  },
+  {
+    "id": "pe-int-1",
+    "title": "Context-Aware RAG Prompt",
     "level": "Intermediate",
     "category": "AI/Prompt Engineering",
     "techStack": [
+      "LangChain",
       "Python",
-      "OpenAI/Anthropic API",
-      "Promptfoo"
+      "Vector DB"
     ],
-    "description": "Create a test suite that compares 5 different prompt versions for the same task to find the most accurate one.",
-    "problemStatement": "Large Language Models can be unpredictable; prompts need objective evaluation.",
+    "description": "Design an advanced prompt template for a Retrieval Augmented Generation (RAG) system that minimizes hallucinations.",
+    "problemStatement": "RAG systems need objective instructions to stay grounded.",
     "learningOutcomes": [
-      "Qualitative evaluation",
-      "A/B testing prompts"
+      "Few-shot conditioning",
+      "Hallucination mitigation"
     ],
     "implementationPlan": [
-      "Define success criteria for a specific task",
-      "Craft 5 variations of prompts",
-      "Run evaluations and score outputs"
+      "Setup LangChain environment",
+      "Test prompt with vs without few-shot"
     ]
   },
   {
-    "id": "vibe-1",
-    "title": "Natural Language Full-stack MVP",
-    "level": "Intermediate",
+    "id": "pe-adv-1",
+    "title": "Instruction Hierarchies Suite",
+    "level": "Advanced",
+    "category": "AI/Prompt Engineering",
+    "techStack": [
+      "Promptfoo",
+      "ReAct Framework"
+    ],
+    "description": "Develop a complex suite of hierarchal prompts that allow for programmatic steering of LLM agents.",
+    "problemStatement": "Coordinating agents requires deep instruction layering.",
+    "learningOutcomes": [
+      "Hierarchical prompt structure",
+      "Agentic steering"
+    ],
+    "implementationPlan": [
+      "Design multi-agent flow",
+      "Evaluate with Promptfoo"
+    ]
+  },
+  {
+    "id": "vibe-beg-1",
+    "title": "AI Personal Portfolio",
+    "level": "Beginner",
     "category": "Vibe Coding",
     "techStack": [
       "Cursor",
-      "Claude",
-      "Tailwind"
+      "v0",
+      "Tailwind CSS"
     ],
-    "description": "Build a real-time collaborative task app through natural language descriptions.",
-    "problemStatement": "Rapidly prototype an idea without manual coding fatigue.",
+    "description": "Create a stunning personal portfolio website using only natural language 'vibe' descriptions.",
+    "problemStatement": "Manual UI coding is slow for rapid prototyping.",
     "learningOutcomes": [
-      "Effective context sharing",
-      "Iterative AI debugging"
+      "Intent-driven layout generation",
+      "Iterative UI refinement"
     ],
     "implementationPlan": [
-      "Draft a high-level system spec",
-      "Use 'vibe' to generate initial layout",
-      "Iteratively add backend functionality"
+      "Draft portfolio vibe",
+      "Iteratively refine with AI"
     ]
   },
   {
-    "id": "claude-opt-1",
-    "title": "Automated Project Documenter",
+    "id": "vibe-int-1",
+    "title": "Interactive Story Generator",
+    "level": "Intermediate",
+    "category": "Vibe Coding",
+    "techStack": [
+      "Replit Agent",
+      "Node.js",
+      "Express"
+    ],
+    "description": "Build a full-stack application that generates dynamic stories based on user input, developed via AI pair programming.",
+    "problemStatement": "Complex logic can be hard to prompt correctly.",
+    "learningOutcomes": [
+      "System instructions",
+      "Multi-file AI refactoring"
+    ],
+    "implementationPlan": [
+      "Define story engine logic",
+      "Let AI generate Express routes"
+    ]
+  },
+  {
+    "id": "vibe-adv-1",
+    "title": "Enterprise SaaS MVP",
     "level": "Advanced",
+    "category": "Vibe Coding",
+    "techStack": [
+      "Bolt.new",
+      "Supabase",
+      "React"
+    ],
+    "description": "Rapidly prototype a complex SaaS dashboard with auth and database integration using agentic workflows.",
+    "problemStatement": "Building SaaS from scratch takes weeks; AI can do it in hours.",
+    "learningOutcomes": [
+      "Agentic tech stack orchestration",
+      "Large-scale AI maintenance"
+    ],
+    "implementationPlan": [
+      "Configure Supabase schema",
+      "Use Bolt.new to scaffold entire dashboard"
+    ]
+  },
+  {
+    "id": "claude-beg-1",
+    "title": "Unit Test Bot",
+    "level": "Beginner",
     "category": "Claude Code",
     "techStack": [
       "Claude Code CLI",
-      "MCP"
+      "Jest"
     ],
-    "description": "Use Claude Code and custom MCP servers to automatically generate project documentation.",
-    "problemStatement": "Project documentation often lags behind code changes.",
+    "description": "Use Claude Code to automatically explore a repository and generate unit tests.",
+    "problemStatement": "Writing tests manually is tedious.",
     "learningOutcomes": [
-      "CLI Agentic use",
-      "MCP server development"
+      "CLI file exploration",
+      "Automated test generation"
     ],
     "implementationPlan": [
-      "Setup Claude Code on a project",
-      "Develop an MCP server to read file changes",
-      "Generate README via agentic loops"
+      "Run claude explore",
+      "Ask for tests for utils/ folder"
+    ]
+  },
+  {
+    "id": "claude-int-1",
+    "title": "MCP Hub Connector",
+    "level": "Intermediate",
+    "category": "Claude Code",
+    "techStack": [
+      "Claude CLI",
+      "TypeScript",
+      "MCP SDK"
+    ],
+    "description": "Develop a custom MCP server that connects Claude Code to a third-party API.",
+    "problemStatement": "AI agents need live data from external sources.",
+    "learningOutcomes": [
+      "MCP server development",
+      "Context bridge management"
+    ],
+    "implementationPlan": [
+      "Bootstrap MCP server",
+      "Connect to JSONPlaceholder or similar"
+    ]
+  },
+  {
+    "id": "claude-adv-1",
+    "title": "Auto-Refactor Agent",
+    "level": "Advanced",
+    "category": "Claude Code",
+    "techStack": [
+      "Claude Code",
+      "MCP",
+      "CI/CD"
+    ],
+    "description": "Build an agentic pipeline using Claude Code and MCP to safely migrate legacy code.",
+    "problemStatement": "Legacy code migration is risky and slow.",
+    "learningOutcomes": [
+      "High-level agentic orchestration",
+      "Automated PR workflows"
+    ],
+    "implementationPlan": [
+      "Define migration rules",
+      "Execute agentic loop across repo"
     ]
   }
 ]

@@ -794,12 +794,12 @@
         },
         "projects": {
             "mini": [
-                "Style Transfer Prompt",
-                "Information Extractor"
+                "Creative Prompt Pack",
+                "Style Transfer Prompt"
             ],
             "realworld": [
-                "Prompt Evaluation Suite",
-                "AI Content Moderator"
+                "Context-Aware RAG Prompt",
+                "Instruction Hierarchies Suite"
             ]
         },
         "bestPractices": [
@@ -857,12 +857,12 @@
         },
         "projects": {
             "mini": [
-                "Vibed Website",
-                "AI UI Generator"
+                "AI Personal Portfolio",
+                "Vibed Website"
             ],
             "realworld": [
-                "Full-stack MVP with AI",
-                "Automated Agent Tool"
+                "Interactive Story Generator",
+                "Enterprise SaaS MVP"
             ]
         },
         "bestPractices": [
@@ -914,12 +914,12 @@
         },
         "projects": {
             "mini": [
-                "CLI Test Generator",
-                "Repo Searcher"
+                "Unit Test Bot",
+                "CLI Test Generator"
             ],
             "realworld": [
-                "Auto-Refactor Suite",
-                "Custom MCP Connector"
+                "MCP Hub Connector",
+                "Auto-Refactor Agent"
             ]
         },
         "bestPractices": [
