@@ -1,3 +1,35 @@
+<div align="center">
+
+# 🎯 Skill Development Roadmap
+
+**A full-stack learning and authentication platform with account verification and roadmap resources.**
+
+[![Node.js](https://img.shields.io/badge/Node.js-runtime-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/) [![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/) [![Authentication](https://img.shields.io/badge/Auth-JWT%20%2B%20OTP-6C5CE7)](#authentication)
+
+</div>
+
+## 📚 Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Setup and configuration](#setup-instructions)
+- [API reference](#api-endpoints)
+- [User flow](#user-flow)
+- [Testing](#testing)
+
+## Overview
+
+This repository combines a skill-development roadmap experience with a MySQL-backed authentication flow. The existing project documentation below contains the environment setup, API routes, user journey, and deployment steps.
+
+## Features
+
+- Email OTP verification and password reset
+- JWT-based login and protected routes
+- Roadmap, skill, project, and practice resource endpoints
+- Frontend/backend deployment guidance
+
+---
+
 # Skill Development Roadmap - Authentication System
 
 Complete authentication system with MySQL database, JWT tokens, and OTP verification.
